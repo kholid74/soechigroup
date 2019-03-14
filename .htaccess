@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /soechi/ 
+RewriteBase /soechigroup/ 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([a-zA-Z0-9-_]+)/([a-zA-Z0-9-_]+)$ index.php?page=$1&ids=$2 [QSA,NC]
