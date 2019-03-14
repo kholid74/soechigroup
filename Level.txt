@@ -1,0 +1,22 @@
+1. Superadmin
+- all menu
+
+2. manager
+- dashboard
+- module candidate
+- module excrew
+- module report
+
+3. HR
+- dashboard
+- module candidate
+- module excrew
+- module interview
+- module report
+
+4. Staff
+- Dashboard
+- module job
+
+5. Security
+- dashboard interview schedule

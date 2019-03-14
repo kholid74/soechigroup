@@ -1,0 +1,4 @@
+[16-Oct-2017 16:15:31 UTC] PHP Warning:  fgets(): SSL: Connection reset by peer in /home/sency/public_html/assets/plugins/instashow/api/index.php on line 841
+[23-Jan-2018 08:53:09 UTC] PHP Notice:  Undefined offset: 2 in /home/u0257220/public_html/kotakasablanka/assets/plugins/instashow/api/index.php on line 869
+[23-Jan-2018 08:53:10 UTC] PHP Notice:  Undefined offset: 1 in /home/u0257220/public_html/kotakasablanka/assets/plugins/instashow/api/index.php on line 869
+[23-Jan-2018 08:53:10 UTC] PHP Notice:  Undefined offset: 0 in /home/u0257220/public_html/kotakasablanka/assets/plugins/instashow/api/index.php on line 869
