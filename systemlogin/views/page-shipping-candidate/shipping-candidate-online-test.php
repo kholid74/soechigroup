@@ -127,7 +127,7 @@
 									foreach ($jobName as $vacancy) {?>
 
 	                               ?>
-	                              <option value="<?= $vacancy['name'] ?>"><?= $vacancy['name'] ?></option>
+	                              <option value="<?= $vacancy['id_job_name'] ?>"><?= $vacancy['id_job_name'] ?></option>
 
 	                             <?php } ?>
 	                              

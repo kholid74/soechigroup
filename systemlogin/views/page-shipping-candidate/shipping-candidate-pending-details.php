@@ -421,8 +421,20 @@ if($authadmin['level'] == '2'){
 							       <form role="form" method="POST" enctype="multipart/form-data">
 							          <div class="form-group">
 							            <label for="message-text" class="col-form-label">Please give rejection reason :</label>
+													<select class="form-control" name="_reason_reject" id="_reason_reject">
+													<option selected disabled>Select Reason to Reject</option>
+							            <?php 
+							            	$sql = "SELECT * FROM sch_master_reason_reject";
+														$reject = $object->fetch_all($sql);
+														if (count($reject) > 0) {
+															foreach ($reject as $rejct) {?>
+														
+														<option value="<?= $rejct['reason'] ?>"><?= $rejct['reason'] ?></option>
+													<?php }} ?>
 
-							            <textarea name="_reason_reject" id="_reason_reject" cols="65" rows="4" placeholder="Input Reason Reject"></textarea>
+													</select>
+													<br>
+													<textarea name="_reason_reject" id="_reason" cols="65" rows="4" placeholder="Input Reason Reject (Fill this if there are no suitable options above.)" ></textarea>
 
 							          </div>
 							      </div>

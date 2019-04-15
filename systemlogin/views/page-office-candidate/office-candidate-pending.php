@@ -1,7 +1,7 @@
 <?php 
 
   /*PENDING REVIEW*/
-  $sql1   = "SELECT * FROM sch_candidate_office WHERE status='0'";
+  $sql1   = "SELECT * FROM sch_candidate_office WHERE status='0' AND candidate_code!=''";
   $show1  = $object->fetch_all($sql1);
   $count1 = count($show1); 
 
@@ -130,7 +130,7 @@
 
 							                $jobtitle  = $_POST['_jobTitle'];
 
-							                $sql = "SELECT a.*,b.job_title FROM sch_candidate_office a JOIN sch_job_office b ON a.id_job = b.id WHERE a.status='0' OR a.status='3' AND b.job_title='$jobtitle'";
+							                $sql = "SELECT a.*,b.job_title FROM sch_candidate_office a JOIN sch_job_office b ON a.id_job = b.id WHERE a.status='0' AND b.job_title='$jobtitle' AND a.candidate_code!=''";
 							                
 							                $fetchAll = $object->fetch_all($sql);
 							                $rows = count($fetchAll);
@@ -139,7 +139,7 @@
 						                
 						                }else{
 
-						                	$sql = "SELECT a.*,b.job_title FROM sch_candidate_office a JOIN sch_job_office b ON a.id_job = b.id WHERE a.status='0' OR a.status='3'";
+						                	$sql = "SELECT a.*,b.job_title FROM sch_candidate_office a JOIN sch_job_office b ON a.id_job = b.id WHERE a.status='0' AND a.candidate_code!=''";
 
 						                } 
 								    	

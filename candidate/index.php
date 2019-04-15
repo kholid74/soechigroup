@@ -1,5 +1,5 @@
 <?php
-define('BASE_URL', "http://".$_SERVER['HTTP_HOST'].'/soechi/');
+define('BASE_URL', "http://".$_SERVER['HTTP_HOST'].'/soechigroup/');
 include_once dirname(__FILE__).DIRECTORY_SEPARATOR.'../controller/Autoloader.php';
 include_once dirname(__FILE__).DIRECTORY_SEPARATOR.'../controller/auth-login.php';
 $auth = new auth_login();

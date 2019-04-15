@@ -72,11 +72,7 @@
 						<tbody>
 							<?php 
 
-						    	$sql = "SELECT a.*, b.first_name,b.last_name,b.email,b.candidate_code, c.id_job_name 
-													FROM sch_interview_schedule a 
-													JOIN sch_candidate_shipping b ON a.id_candidate=b.id 
-													JOIN sch_job_shipping c ON b.id_job=c.id 
-													WHERE a.category='shipping' AND a.status='2'";
+						    	$sql = "SELECT a.*, b.first_name,b.last_name,b.email,b.candidate_code, c.id_job_name FROM sch_interview_schedule a JOIN sch_candidate_shipping b ON a.id_candidate=b.id JOIN sch_job_shipping c ON b.id_job=c.id WHERE a.category='shipping' AND a.status='2'"; 
 
 								$candidate = $object->fetch_all($sql);
 								if (count($candidate) > 0) {
