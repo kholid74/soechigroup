@@ -1,6 +1,6 @@
 <?php
     define('HOST_NAME','localhost');
-    define('DATABASE_NAME','soechi_prod');
+    define('DATABASE_NAME','soechi');
     define('DATABASE_USER_NAME','root');
     define('DATABASE_PASSWORD','');
 

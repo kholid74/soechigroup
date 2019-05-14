@@ -65,14 +65,14 @@
 		$mail = new PHPMailer(true);
 
 	    $mail->SMTPDebug = 0;    
-	    $mail->isSMTP();                         
-	    $mail->Host = 'smtp.mailtrap.io'; 
-	    $mail->SMTPAuth = true;                      
-	    $mail->Username = 'a1526266572f65';   
-	    $mail->Password = '49a15dc8363a34';                
-	    $mail->SMTPSecure = 'tls';                         
-	    $mail->Port = 2525;                            
-	      
+        $mail->isSMTP();                         
+        $mail->Host = 'smtp.gmail.com'; 
+        $mail->SMTPAuth = true;                      
+        $mail->Username = 'no-reply@soechi.com';   
+        $mail->Password = 'autocount2018!';                
+        $mail->SMTPSecure = 'tls';                         
+        $mail->Port = 587;
+
 	    $message = file_get_contents(''.BASE_URL.'emailtemplates/shipping-send-boc.html');
 	    $message = str_replace("%candidate['first_name']%", $candidate['first_name'], $message);
 	    $message = str_replace("%candidate['last_name']%", $candidate['last_name'], $message);
@@ -80,9 +80,9 @@
 	    $message = str_replace("%candidate['short_name']%", $candidate['short_name'], $message);     
 	    
 	    //Recipients
-	    $mail->setFrom('demo@essentials.id', 'Soechi Recruitment');
+	    $mail->setFrom('no-reply@soechi.com', 'Soechi Recruitment');
 	    $mail->addAddress(''.$showboc['value'].'', 'BOC');  
-	    $mail->addReplyTo('demo@essentials.id', 'Information');
+	    $mail->addReplyTo('no-reply@soechi.com', 'Information');
 
 	    //Content
 	    $mail->isHTML(true);              
@@ -127,7 +127,7 @@
 		<div id="ui-view" style="opacity: 1;">
 			<div class="animated fadeIn">
 				<h4 style="text-align: center">SHORTLISTED CANDIDATE</h4>
-				<center><span style="font-size: 15px;">VECTOR MARITIM SHIP MANAGEMENT</span></center>
+				<center><span style="font-size: 15px;">VEKTOR MARITIM SHIP MANAGEMENT</span></center>
 				<div class="card">
 					<div class="card-header">
 						
@@ -145,10 +145,10 @@
 						            <tr>
 						              <td  width="30%" rowspan="5" align="center">
 						              	<?php if(empty($candidate['photo'])){ ?>
-																<img src="<?php echo BASE_URL; ?>media/images/img-nopict.jpg" width="129" height="125">
-														<?php }else{ ?>
-																<img src="<?php echo BASE_URL; ?>media/images/photos/<?= $candidate['photo'] ?>" width="119" height="115">
-														<?php } ?>
+										<img src="<?php echo BASE_URL; ?>media/images/img-nopict.jpg" width="129" height="125">
+										<?php }else{ ?>
+										<img src="<?php echo BASE_URL; ?>media/images/photos/<?= $candidate['photo'] ?>" width="119" height="115">
+										<?php } ?>
 						              </td>
 				                      <td width="30%">Name</td>
 				                      <td>:&nbsp;</td>
@@ -428,7 +428,7 @@
                                   <thead>
                                     <tr style="font-weight: bold;">
                                       <td align="center">Document Name</td>
-																			<td align="center">Document Number</td>
+                                      <td align="center">Document Number</td>
                                       <td align="center">Document Issue Place</td>
                                       <td align="center">Document Issue Country</td>
                                       <td align="center">Date Issued</td>
@@ -441,7 +441,7 @@
                                   <?php
 
                                   	$doc = "SELECT * FROM sch_master_document_shipping WHERE category ='$catCandidate'";
-    																$exp = $object->fetch_all($doc); 
+    								$exp = $object->fetch_all($doc); 
                                     
                                     if (count($exp) > 0) {
                                       $number = 1;
@@ -453,7 +453,7 @@
                                   ?>
                                   <tr>
                                     <td><?= $docUpload['document_name'] ?></td>
-																		<td><?= $candDoc['document_number'] ?></td>
+                                    <td><?= $candDoc['document_number'] ?></td>
                                     <td><?= $candDoc['document_issue_place'] ?></td>
                                     <td><?= $candDoc['document_issue_country'] ?></td>
                                     <td align="center"><?= $candDoc['date_issued'] ?></td>

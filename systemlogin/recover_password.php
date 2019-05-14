@@ -25,7 +25,7 @@
 
 <?php
 
- // error_reporting(E_ALL);
+  error_reporting(E_ALL);
   date_default_timezone_set('Asia/Jakarta');
   ini_set('default_charset', 'UTF-8');
   $dir = realpath(dirname(__FILE__));

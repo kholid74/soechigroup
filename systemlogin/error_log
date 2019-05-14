@@ -1,0 +1,877 @@
+[06-Nov-2018 14:51:00 Asia/Jakarta] PHP Notice:  Undefined index: user_session in /home/soechine/public_html/career/systemlogin/index.php on line 12
+[06-Nov-2018 14:51:00 Asia/Jakarta] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/soechine/public_html/career/systemlogin/login.php:26) in /home/soechine/public_html/career/controller/database.php on line 2
+[06-Nov-2018 14:57:48 Asia/Jakarta] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/soechine/public_html/career/systemlogin/login.php:26) in /home/soechine/public_html/career/controller/database.php on line 2
+[06-Nov-2018 14:58:31 Asia/Jakarta] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/soechine/public_html/career/systemlogin/login.php:26) in /home/soechine/public_html/career/controller/database.php on line 2
+[06-Nov-2018 14:59:06 Asia/Jakarta] PHP Fatal error:  Call to undefined function password_verify() in /home/soechine/public_html/career/controller/auth-login.php on line 44
+[06-Nov-2018 14:59:25 Asia/Jakarta] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/soechine/public_html/career/systemlogin/login.php:26) in /home/soechine/public_html/career/controller/database.php on line 2
+[06-Nov-2018 14:59:25 Asia/Jakarta] PHP Fatal error:  Call to undefined function password_verify() in /home/soechine/public_html/career/controller/auth-login.php on line 44
+[06-Nov-2018 15:00:37 Asia/Jakarta] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/soechine/public_html/career/systemlogin/login.php:26) in /home/soechine/public_html/career/controller/database.php on line 2
+[06-Nov-2018 15:00:37 Asia/Jakarta] PHP Fatal error:  Call to undefined function password_verify() in /home/soechine/public_html/career/controller/auth-login.php on line 44
+[06-Nov-2018 15:22:51 Asia/Jakarta] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/soechine/public_html/career/systemlogin/login.php:26) in /home/soechine/public_html/career/controller/database.php on line 2
+[23-Nov-2018 15:51:55 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[23-Nov-2018 15:52:33 Asia/jakarta] PHP Warning:  require_once(/home/u5974809/public_html/soechi/vendor/autoload.php): failed to open stream: No such file or directory in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[23-Nov-2018 15:52:33 Asia/jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/u5974809/public_html/soechi/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[23-Nov-2018 15:53:04 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 13:42:19 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 13:42:39 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 13:43:38 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 13:43:54 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 13:56:58 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 13:57:22 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 13:57:26 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 13:57:28 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 13:57:28 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 13:57:32 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 13:57:33 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 13:57:40 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 13:57:52 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 13:58:32 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 13:58:38 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 13:59:00 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 13:59:02 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 13:59:57 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 14:01:01 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 14:01:06 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 14:01:07 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 14:01:40 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 14:03:56 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 14:13:18 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 14:15:28 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[17-Dec-2018 14:15:40 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 14:18:40 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 14:19:37 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 186
+[17-Dec-2018 14:20:15 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[17-Dec-2018 14:20:15 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[17-Dec-2018 14:23:45 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 15:00:48 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/emailtemplates/shipping-shortlisted-send-userpass.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php on line 53
+[17-Dec-2018 15:00:48 Asia/jakarta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php:1411
+Stack trace:
+#0 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php(69): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/u5974809/public_html/career/systemlogin/index.php(77): include_once('/home/u5974809/...')
+#3 {main}
+  thrown in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1411
+[17-Dec-2018 15:08:22 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 15:12:11 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/emailtemplates/shipping-shortlisted-send-userpass.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php on line 53
+[17-Dec-2018 15:12:11 Asia/jakarta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php:1411
+Stack trace:
+#0 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php(69): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/u5974809/public_html/career/systemlogin/index.php(77): include_once('/home/u5974809/...')
+#3 {main}
+  thrown in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1411
+[17-Dec-2018 15:14:25 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/emailtemplates/shipping-shortlisted-send-userpass.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php on line 53
+[17-Dec-2018 15:14:25 Asia/jakarta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php:1411
+Stack trace:
+#0 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php(69): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/u5974809/public_html/career/systemlogin/index.php(77): include_once('/home/u5974809/...')
+#3 {main}
+  thrown in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1411
+[17-Dec-2018 15:15:21 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 186
+[17-Dec-2018 15:15:36 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/emailtemplates/shipping-send-boc.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-shortlisted-details.php on line 68
+[17-Dec-2018 15:15:36 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/media/files/cv_candidate_800394378_1545034240.pdf): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-shortlisted-details.php on line 84
+[17-Dec-2018 15:15:36 Asia/jakarta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php:1411
+Stack trace:
+#0 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-shortlisted-details.php(86): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/u5974809/public_html/career/systemlogin/index.php(83): include_once('/home/u5974809/...')
+#3 {main}
+  thrown in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1411
+[17-Dec-2018 15:18:48 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/emailtemplates/shipping-shortlisted-send-userpass.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php on line 53
+[17-Dec-2018 15:18:48 Asia/jakarta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php:1411
+Stack trace:
+#0 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php(69): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/u5974809/public_html/career/systemlogin/index.php(77): include_once('/home/u5974809/...')
+#3 {main}
+  thrown in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1411
+[17-Dec-2018 15:18:57 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/emailtemplates/shipping-shortlisted-send-userpass.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php on line 53
+[17-Dec-2018 15:18:57 Asia/jakarta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php:1411
+Stack trace:
+#0 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php(69): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/u5974809/public_html/career/systemlogin/index.php(77): include_once('/home/u5974809/...')
+#3 {main}
+  thrown in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1411
+[17-Dec-2018 15:21:27 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/emailtemplates/shipping-send-boc.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-shortlisted-details.php on line 68
+[17-Dec-2018 15:21:27 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/media/files/cv_candidate_800394378_1545034240.pdf): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-shortlisted-details.php on line 84
+[17-Dec-2018 15:21:27 Asia/jakarta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php:1411
+Stack trace:
+#0 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-shortlisted-details.php(86): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/u5974809/public_html/career/systemlogin/index.php(83): include_once('/home/u5974809/...')
+#3 {main}
+  thrown in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1411
+[17-Dec-2018 15:22:12 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 186
+[17-Dec-2018 15:22:16 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 186
+[17-Dec-2018 15:23:53 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/emailtemplates/shipping-shortlisted-send-userpass.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php on line 53
+[17-Dec-2018 15:23:53 Asia/jakarta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php:1411
+Stack trace:
+#0 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php(69): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/u5974809/public_html/career/systemlogin/index.php(77): include_once('/home/u5974809/...')
+#3 {main}
+  thrown in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1411
+[17-Dec-2018 15:25:44 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/emailtemplates/shipping-shortlisted-send-userpass.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php on line 53
+[17-Dec-2018 15:25:44 Asia/jakarta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php:1411
+Stack trace:
+#0 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php(69): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/u5974809/public_html/career/systemlogin/index.php(77): include_once('/home/u5974809/...')
+#3 {main}
+  thrown in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1411
+[17-Dec-2018 15:29:51 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/emailtemplates/shipping-shortlisted-send-userpass.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php on line 53
+[17-Dec-2018 15:29:51 Asia/jakarta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php:1411
+Stack trace:
+#0 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php(69): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/u5974809/public_html/career/systemlogin/index.php(77): include_once('/home/u5974809/...')
+#3 {main}
+  thrown in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1411
+[17-Dec-2018 15:34:25 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/emailtemplates/shipping-shortlisted-send-userpass.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php on line 53
+[17-Dec-2018 15:34:25 Asia/jakarta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php:1411
+Stack trace:
+#0 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php(69): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/u5974809/public_html/career/systemlogin/index.php(77): include_once('/home/u5974809/...')
+#3 {main}
+  thrown in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1411
+[17-Dec-2018 15:40:38 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 15:43:55 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 15:51:41 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 186
+[17-Dec-2018 15:57:24 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/emailtemplates/shipping-barcode.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-interview/shipping-interview-pending-details.php on line 88
+[17-Dec-2018 15:57:24 Asia/jakarta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php:1411
+Stack trace:
+#0 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/u5974809/public_html/career/systemlogin/views/page-shipping-interview/shipping-interview-pending-details.php(110): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/u5974809/public_html/career/systemlogin/index.php(131): include_once('/home/u5974809/...')
+#3 {main}
+  thrown in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1411
+[17-Dec-2018 15:58:54 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/emailtemplates/shipping-passes-interview.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-interview/shipping-interview-approved-details.php on line 82
+[17-Dec-2018 15:58:54 Asia/jakarta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php:1411
+Stack trace:
+#0 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/u5974809/public_html/career/systemlogin/views/page-shipping-interview/shipping-interview-approved-details.php(95): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/u5974809/public_html/career/systemlogin/index.php(137): include_once('/home/u5974809/...')
+#3 {main}
+  thrown in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1411
+[17-Dec-2018 16:07:55 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/emailtemplates/shipping-shortlisted-send-userpass.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php on line 53
+[17-Dec-2018 16:07:55 Asia/jakarta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php:1411
+Stack trace:
+#0 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php(69): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/u5974809/public_html/career/systemlogin/index.php(77): include_once('/home/u5974809/...')
+#3 {main}
+  thrown in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1411
+[17-Dec-2018 16:09:19 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/emailtemplates/shipping-shortlisted-send-userpass.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php on line 53
+[17-Dec-2018 16:09:19 Asia/jakarta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php:1411
+Stack trace:
+#0 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php(69): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/u5974809/public_html/career/systemlogin/index.php(77): include_once('/home/u5974809/...')
+#3 {main}
+  thrown in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1411
+[17-Dec-2018 16:13:36 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 16:14:45 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Dec-2018 16:17:12 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/emailtemplates/shipping-shortlisted-send-userpass.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php on line 53
+[17-Dec-2018 16:17:12 Asia/jakarta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php:1411
+Stack trace:
+#0 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php(69): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/u5974809/public_html/career/systemlogin/index.php(77): include_once('/home/u5974809/...')
+#3 {main}
+  thrown in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1411
+[17-Dec-2018 16:17:50 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/emailtemplates/shipping-shortlisted-send-userpass.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php on line 53
+[17-Dec-2018 16:17:50 Asia/jakarta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php:1411
+Stack trace:
+#0 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php(69): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/u5974809/public_html/career/systemlogin/index.php(77): include_once('/home/u5974809/...')
+#3 {main}
+  thrown in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1411
+[18-Dec-2018 08:38:43 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[18-Dec-2018 08:41:02 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[18-Dec-2018 08:46:12 Asia/jakarta] PHP Warning:  escapeshellcmd() has been disabled for security reasons in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1597
+[18-Dec-2018 08:46:12 Asia/jakarta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Could not instantiate mail function. in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php:1671
+Stack trace:
+#0 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1483): PHPMailer\PHPMailer\PHPMailer->mailSend('Date: Tue, 18 D...', 'This is a multi...')
+#1 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1320): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/u5974809/public_html/career/systemlogin/forgot_password.php(75): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1671
+[18-Dec-2018 08:47:28 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[18-Dec-2018 08:54:30 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[18-Dec-2018 09:01:07 Asia/jakarta] PHP Warning:  file_get_contents(http://career.soechigroup.com/soechi/emailtemplates/shipping-passes-interview.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/u5974809/public_html/career/systemlogin/views/page-shipping-interview/shipping-interview-approved-details.php on line 82
+[18-Dec-2018 09:01:07 Asia/jakarta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php:1411
+Stack trace:
+#0 /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/u5974809/public_html/career/systemlogin/views/page-shipping-interview/shipping-interview-approved-details.php(95): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/u5974809/public_html/career/systemlogin/index.php(137): include_once('/home/u5974809/...')
+#3 {main}
+  thrown in /home/u5974809/public_html/career/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1411
+[18-Dec-2018 09:06:19 Asia/jakarta] PHP Warning:  require_once(/home/u5974809/public_html/career/soechi/vendor/autoload.php): failed to open stream: No such file or directory in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[18-Dec-2018 09:06:19 Asia/jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/u5974809/public_html/career/soechi/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[18-Dec-2018 09:06:25 Asia/jakarta] PHP Warning:  require_once(/home/u5974809/public_html/career/soechi/vendor/autoload.php): failed to open stream: No such file or directory in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[18-Dec-2018 09:06:25 Asia/jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/u5974809/public_html/career/soechi/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[18-Dec-2018 10:53:21 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[18-Dec-2018 11:57:06 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[18-Dec-2018 12:46:14 Asia/jakarta] PHP Notice:  Undefined index: user_type in /home/u5974809/public_html/career/systemlogin/views/page-user/user-edit.php on line 97
+[18-Dec-2018 12:46:14 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-user/user-edit.php on line 130
+[18-Dec-2018 12:47:13 Asia/jakarta] PHP Notice:  Undefined index: user_type in /home/u5974809/public_html/career/systemlogin/views/page-user/user-edit.php on line 97
+[18-Dec-2018 12:47:13 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-user/user-edit.php on line 130
+[18-Dec-2018 14:09:32 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[18-Dec-2018 14:40:08 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[18-Dec-2018 16:01:15 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[18-Dec-2018 16:05:03 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[18-Dec-2018 16:41:08 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[18-Dec-2018 16:41:09 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[18-Dec-2018 17:04:22 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[18-Dec-2018 17:04:22 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[18-Dec-2018 17:05:19 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[18-Dec-2018 17:40:11 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[18-Dec-2018 17:59:55 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[20-Dec-2018 14:48:21 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[20-Dec-2018 14:48:21 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[20-Dec-2018 14:50:02 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[20-Dec-2018 14:54:05 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[20-Dec-2018 14:59:18 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[20-Dec-2018 14:59:19 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[20-Dec-2018 14:59:19 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[20-Dec-2018 15:00:59 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[20-Dec-2018 15:02:09 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[20-Dec-2018 15:03:01 Asia/jakarta] PHP Notice:  Undefined index: _role in /home/u5974809/public_html/career/systemlogin/views/page-user/user-add.php on line 33
+[20-Dec-2018 15:03:01 Asia/jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'level' cannot be null in /home/u5974809/public_html/career/controller/controller.php:37
+Stack trace:
+#0 /home/u5974809/public_html/career/controller/controller.php(37): PDOStatement->execute()
+#1 /home/u5974809/public_html/career/controller/systemAdmin.php(12): controller_system->insert('sch_user', Array)
+#2 /home/u5974809/public_html/career/systemlogin/views/page-user/user-add.php(37): SystemAdmin->tambahdata('sch_user', Array)
+#3 /home/u5974809/public_html/career/systemlogin/index.php(30): include_once('/home/u5974809/...')
+#4 {main}
+  thrown in /home/u5974809/public_html/career/controller/controller.php on line 37
+[20-Dec-2018 15:08:03 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 186
+[20-Dec-2018 15:13:40 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[20-Dec-2018 15:13:40 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[20-Dec-2018 15:14:11 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[20-Dec-2018 15:14:11 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[20-Dec-2018 15:24:27 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[20-Dec-2018 15:32:45 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[20-Dec-2018 16:50:02 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[20-Dec-2018 16:56:08 Asia/jakarta] PHP Notice:  Undefined index: user_type in /home/u5974809/public_html/career/systemlogin/views/page-user/user-edit.php on line 97
+[20-Dec-2018 16:56:08 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-user/user-edit.php on line 130
+[20-Dec-2018 16:56:33 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[20-Dec-2018 17:02:21 Asia/jakarta] PHP Notice:  Undefined index: _role in /home/u5974809/public_html/career/systemlogin/views/page-user/user-add.php on line 33
+[20-Dec-2018 17:02:21 Asia/jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'level' cannot be null in /home/u5974809/public_html/career/controller/controller.php:37
+Stack trace:
+#0 /home/u5974809/public_html/career/controller/controller.php(37): PDOStatement->execute()
+#1 /home/u5974809/public_html/career/controller/systemAdmin.php(12): controller_system->insert('sch_user', Array)
+#2 /home/u5974809/public_html/career/systemlogin/views/page-user/user-add.php(37): SystemAdmin->tambahdata('sch_user', Array)
+#3 /home/u5974809/public_html/career/systemlogin/index.php(30): include_once('/home/u5974809/...')
+#4 {main}
+  thrown in /home/u5974809/public_html/career/controller/controller.php on line 37
+[20-Dec-2018 17:31:35 Asia/jakarta] PHP Warning:  require_once(/home/u5974809/public_html/career/soechi/vendor/autoload.php): failed to open stream: No such file or directory in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[20-Dec-2018 17:31:35 Asia/jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/u5974809/public_html/career/soechi/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[21-Dec-2018 10:14:22 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[26-Dec-2018 08:23:24 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[26-Dec-2018 16:37:35 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[04-Jan-2019 11:07:38 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[04-Jan-2019 13:40:12 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[04-Jan-2019 13:40:12 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[04-Jan-2019 13:42:18 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[04-Jan-2019 13:43:21 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[04-Jan-2019 13:43:21 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[04-Jan-2019 13:44:07 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[04-Jan-2019 13:44:07 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[04-Jan-2019 13:45:11 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[04-Jan-2019 13:45:11 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[07-Jan-2019 08:45:32 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[07-Jan-2019 10:01:09 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[07-Jan-2019 13:01:58 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[08-Jan-2019 09:14:25 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[08-Jan-2019 09:21:42 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[08-Jan-2019 09:21:42 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[08-Jan-2019 09:22:24 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[08-Jan-2019 09:22:24 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[08-Jan-2019 09:25:56 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[08-Jan-2019 09:51:32 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[08-Jan-2019 09:51:49 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[08-Jan-2019 09:51:49 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[08-Jan-2019 10:05:07 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[08-Jan-2019 10:05:07 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[08-Jan-2019 10:10:01 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[08-Jan-2019 10:10:01 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[08-Jan-2019 10:11:34 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[08-Jan-2019 10:11:34 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[08-Jan-2019 10:18:51 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[08-Jan-2019 10:18:51 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[08-Jan-2019 10:19:04 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[08-Jan-2019 10:19:04 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[08-Jan-2019 10:19:47 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[08-Jan-2019 10:19:47 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[08-Jan-2019 10:21:42 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[08-Jan-2019 10:21:42 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[08-Jan-2019 10:22:04 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[08-Jan-2019 10:24:35 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[08-Jan-2019 10:24:35 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[08-Jan-2019 11:06:35 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[08-Jan-2019 17:07:23 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[15-Jan-2019 09:55:47 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[15-Jan-2019 11:33:56 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[15-Jan-2019 13:02:20 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[15-Jan-2019 15:35:22 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[16-Jan-2019 15:23:50 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[17-Jan-2019 13:47:23 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 186
+[21-Jan-2019 09:07:36 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[21-Jan-2019 13:14:46 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[21-Jan-2019 13:40:43 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 186
+[21-Jan-2019 13:41:41 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[21-Jan-2019 13:41:41 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[21-Jan-2019 13:42:42 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[21-Jan-2019 13:42:42 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[22-Jan-2019 09:13:45 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[22-Jan-2019 09:13:45 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[22-Jan-2019 11:45:22 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[22-Jan-2019 14:28:53 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[23-Jan-2019 10:00:00 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[23-Jan-2019 13:26:44 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[24-Jan-2019 09:27:46 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[24-Jan-2019 09:28:06 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[24-Jan-2019 11:09:04 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[24-Jan-2019 11:09:04 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[24-Jan-2019 11:09:39 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[24-Jan-2019 11:09:39 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[24-Jan-2019 11:09:58 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[24-Jan-2019 11:09:58 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[24-Jan-2019 11:10:12 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[24-Jan-2019 11:10:12 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[24-Jan-2019 11:10:33 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[24-Jan-2019 11:10:33 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[24-Jan-2019 11:10:48 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[24-Jan-2019 11:10:48 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[24-Jan-2019 11:10:59 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[24-Jan-2019 11:10:59 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[24-Jan-2019 11:11:15 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[24-Jan-2019 11:11:15 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[24-Jan-2019 11:11:34 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[24-Jan-2019 11:11:34 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[24-Jan-2019 11:11:48 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 80
+[24-Jan-2019 11:11:48 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 131
+[24-Jan-2019 11:12:33 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[24-Jan-2019 11:14:13 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 186
+[24-Jan-2019 13:24:03 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[24-Jan-2019 15:50:50 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[25-Jan-2019 13:35:46 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[28-Jan-2019 09:32:07 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[28-Jan-2019 10:36:11 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[29-Jan-2019 10:08:10 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 186
+[29-Jan-2019 10:08:10 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 186
+[30-Jan-2019 11:29:24 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[31-Jan-2019 14:56:41 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-office-interview/office-interview-pending.php on line 210
+[31-Jan-2019 14:57:40 Asia/jakarta] PHP Notice:  Undefined index: first_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 113
+[31-Jan-2019 14:57:40 Asia/jakarta] PHP Notice:  Undefined index: last_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 113
+[31-Jan-2019 14:58:04 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-office-interview/office-interview-pending.php on line 210
+[31-Jan-2019 14:58:24 Asia/jakarta] PHP Notice:  Undefined index: salary in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-pending-details.php on line 925
+[01-Feb-2019 16:14:36 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[01-Feb-2019 16:56:36 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[04-Feb-2019 11:41:12 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 186
+[04-Feb-2019 11:42:57 Asia/jakarta] PHP Notice:  Undefined index: first_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 113
+[04-Feb-2019 11:42:57 Asia/jakarta] PHP Notice:  Undefined index: last_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 113
+[04-Feb-2019 11:43:02 Asia/jakarta] PHP Notice:  Undefined index: salary in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-detail.php on line 817
+[04-Feb-2019 11:43:17 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-office-interview/office-interview-pending.php on line 210
+[04-Feb-2019 14:05:05 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 186
+[06-Feb-2019 14:36:18 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 186
+[06-Feb-2019 14:41:17 Asia/jakarta] PHP Notice:  Undefined index: document_number in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-shortlisted-details.php on line 456
+[06-Feb-2019 14:41:17 Asia/jakarta] PHP Notice:  Undefined index: document_issue_place in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-shortlisted-details.php on line 457
+[06-Feb-2019 14:41:17 Asia/jakarta] PHP Notice:  Undefined index: document_issue_country in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-shortlisted-details.php on line 458
+[06-Feb-2019 14:41:17 Asia/jakarta] PHP Notice:  Undefined index: document_number in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-shortlisted-details.php on line 456
+[06-Feb-2019 14:41:17 Asia/jakarta] PHP Notice:  Undefined index: document_issue_place in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-shortlisted-details.php on line 457
+[06-Feb-2019 14:41:17 Asia/jakarta] PHP Notice:  Undefined index: document_issue_country in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-shortlisted-details.php on line 458
+[06-Feb-2019 14:41:17 Asia/jakarta] PHP Notice:  Undefined index: document_number in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-shortlisted-details.php on line 456
+[06-Feb-2019 14:41:17 Asia/jakarta] PHP Notice:  Undefined index: document_issue_place in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-shortlisted-details.php on line 457
+[06-Feb-2019 14:41:17 Asia/jakarta] PHP Notice:  Undefined index: document_issue_country in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-shortlisted-details.php on line 458
+[06-Feb-2019 14:45:13 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 186
+[06-Feb-2019 14:46:02 Asia/jakarta] PHP Notice:  Undefined index: _statusCand in /home/u5974809/public_html/career/systemlogin/views/page-dashboard/index.php on line 221
+[06-Feb-2019 14:46:27 Asia/jakarta] PHP Notice:  Undefined index: _statusCand in /home/u5974809/public_html/career/systemlogin/views/page-dashboard/index.php on line 221
+[06-Feb-2019 14:47:27 Asia/jakarta] PHP Notice:  Undefined index: _statusCand in /home/u5974809/public_html/career/systemlogin/views/page-dashboard/index.php on line 221
+[06-Feb-2019 14:47:45 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 186
+[06-Feb-2019 15:25:10 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[06-Feb-2019 16:14:15 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[06-Feb-2019 16:14:42 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 186
+[06-Feb-2019 16:14:58 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 186
+[06-Feb-2019 17:35:41 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[07-Feb-2019 14:26:28 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 186
+[12-Feb-2019 13:58:20 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[12-Feb-2019 14:22:23 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[12-Feb-2019 16:33:16 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[13-Feb-2019 17:27:30 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[15-Feb-2019 21:54:12 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[15-Feb-2019 21:54:12 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[15-Feb-2019 21:58:28 Asia/jakarta] PHP Warning:  require_once(/home/u5974809/public_html/career/soechi/vendor/autoload.php): failed to open stream: No such file or directory in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 21:58:28 Asia/jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/u5974809/public_html/career/soechi/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 21:58:32 Asia/jakarta] PHP Warning:  require_once(/home/u5974809/public_html/career/soechi/vendor/autoload.php): failed to open stream: No such file or directory in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 21:58:32 Asia/jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/u5974809/public_html/career/soechi/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 21:58:37 Asia/jakarta] PHP Warning:  require_once(/home/u5974809/public_html/career/soechi/vendor/autoload.php): failed to open stream: No such file or directory in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 21:58:37 Asia/jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/u5974809/public_html/career/soechi/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 22:01:27 Asia/jakarta] PHP Warning:  require_once(/home/u5974809/public_html/career/soechi/vendor/autoload.php): failed to open stream: No such file or directory in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 22:01:27 Asia/jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/u5974809/public_html/career/soechi/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 22:01:27 Asia/jakarta] PHP Warning:  require_once(/home/u5974809/public_html/career/soechi/vendor/autoload.php): failed to open stream: No such file or directory in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 22:01:27 Asia/jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/u5974809/public_html/career/soechi/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 22:01:28 Asia/jakarta] PHP Warning:  require_once(/home/u5974809/public_html/career/soechi/vendor/autoload.php): failed to open stream: No such file or directory in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 22:01:28 Asia/jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/u5974809/public_html/career/soechi/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 22:01:35 Asia/jakarta] PHP Warning:  require_once(/home/u5974809/public_html/career/soechi/vendor/autoload.php): failed to open stream: No such file or directory in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 22:01:35 Asia/jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/u5974809/public_html/career/soechi/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 22:01:59 Asia/jakarta] PHP Warning:  require_once(/home/u5974809/public_html/career/soechi/vendor/autoload.php): failed to open stream: No such file or directory in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 22:01:59 Asia/jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/u5974809/public_html/career/soechi/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 22:13:49 Asia/jakarta] PHP Warning:  require_once(/home/u5974809/public_html/career/soechi/vendor/autoload.php): failed to open stream: No such file or directory in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 22:13:49 Asia/jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/u5974809/public_html/career/soechi/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 22:15:22 Asia/jakarta] PHP Warning:  require_once(/home/u5974809/public_html/career/soechi/vendor/autoload.php): failed to open stream: No such file or directory in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 8
+[15-Feb-2019 22:15:22 Asia/jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/u5974809/public_html/career/soechi/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 8
+[15-Feb-2019 22:15:28 Asia/jakarta] PHP Warning:  require_once(/home/u5974809/public_html/career/soechi/vendor/autoload.php): failed to open stream: No such file or directory in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 8
+[15-Feb-2019 22:15:28 Asia/jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/u5974809/public_html/career/soechi/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 8
+[15-Feb-2019 22:15:46 Asia/jakarta] PHP Warning:  require_once(/home/u5974809/public_html/career/soechi/vendor/autoload.php): failed to open stream: No such file or directory in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 8
+[15-Feb-2019 22:15:46 Asia/jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/u5974809/public_html/career/soechi/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 8
+[15-Feb-2019 22:19:38 Asia/jakarta] PHP Warning:  require_once(/home/u5974809/public_html/career/soechi/vendor/autoload.php): failed to open stream: No such file or directory in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 22:19:38 Asia/jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/u5974809/public_html/career/soechi/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 22:19:44 Asia/jakarta] PHP Warning:  require_once(/home/u5974809/public_html/career/soechi/vendor/autoload.php): failed to open stream: No such file or directory in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 22:19:44 Asia/jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/u5974809/public_html/career/soechi/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/u5974809/public_html/career/systemlogin/views/page-shipping-excrew/shipping-excrew-pending-details.php on line 6
+[15-Feb-2019 22:34:42 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[15-Feb-2019 22:34:42 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[18-Feb-2019 15:50:49 Asia/jakarta] PHP Notice:  Undefined index: user_type in /home/u5974809/public_html/career/systemlogin/views/page-user/user-edit.php on line 97
+[18-Feb-2019 15:50:49 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-user/user-edit.php on line 130
+[18-Feb-2019 15:53:13 Asia/jakarta] PHP Notice:  Undefined index: _role in /home/u5974809/public_html/career/systemlogin/views/page-user/user-add.php on line 33
+[18-Feb-2019 15:53:13 Asia/jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'level' cannot be null in /home/u5974809/public_html/career/controller/controller.php:37
+Stack trace:
+#0 /home/u5974809/public_html/career/controller/controller.php(37): PDOStatement->execute()
+#1 /home/u5974809/public_html/career/controller/systemAdmin.php(12): controller_system->insert('sch_user', Array)
+#2 /home/u5974809/public_html/career/systemlogin/views/page-user/user-add.php(37): SystemAdmin->tambahdata('sch_user', Array)
+#3 /home/u5974809/public_html/career/systemlogin/index.php(30): include_once('/home/u5974809/...')
+#4 {main}
+  thrown in /home/u5974809/public_html/career/controller/controller.php on line 37
+[18-Feb-2019 15:56:40 Asia/jakarta] PHP Notice:  Undefined index: _role in /home/u5974809/public_html/career/systemlogin/views/page-user/user-add.php on line 33
+[18-Feb-2019 15:56:40 Asia/jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'level' cannot be null in /home/u5974809/public_html/career/controller/controller.php:37
+Stack trace:
+#0 /home/u5974809/public_html/career/controller/controller.php(37): PDOStatement->execute()
+#1 /home/u5974809/public_html/career/controller/systemAdmin.php(12): controller_system->insert('sch_user', Array)
+#2 /home/u5974809/public_html/career/systemlogin/views/page-user/user-add.php(37): SystemAdmin->tambahdata('sch_user', Array)
+#3 /home/u5974809/public_html/career/systemlogin/index.php(30): include_once('/home/u5974809/...')
+#4 {main}
+  thrown in /home/u5974809/public_html/career/controller/controller.php on line 37
+[18-Feb-2019 16:07:12 Asia/jakarta] PHP Notice:  Undefined index: user_type in /home/u5974809/public_html/career/systemlogin/views/page-user/user-edit.php on line 97
+[18-Feb-2019 16:07:12 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-user/user-edit.php on line 130
+[19-Feb-2019 16:05:02 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[22-Feb-2019 17:08:05 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[25-Feb-2019 17:25:58 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[15-Mar-2019 16:11:34 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[15-Mar-2019 16:25:08 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 159
+[15-Mar-2019 16:25:08 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 261
+[21-Mar-2019 16:56:29 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[25-Mar-2019 14:38:49 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[25-Mar-2019 14:38:52 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[25-Mar-2019 14:39:00 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[26-Mar-2019 09:30:12 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[26-Mar-2019 10:02:50 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[26-Mar-2019 10:12:55 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[26-Mar-2019 10:43:52 Asia/jakarta] PHP Notice:  Undefined index: user_type in /home/u5974809/public_html/career/systemlogin/views/page-user/user-edit.php on line 97
+[26-Mar-2019 10:43:52 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-user/user-edit.php on line 130
+[26-Mar-2019 11:10:43 Asia/jakarta] PHP Notice:  Undefined index: salary in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-pending-details.php on line 925
+[26-Mar-2019 11:11:21 Asia/jakarta] PHP Notice:  Undefined index: first_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 113
+[26-Mar-2019 11:11:21 Asia/jakarta] PHP Notice:  Undefined index: last_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 113
+[26-Mar-2019 11:11:25 Asia/jakarta] PHP Notice:  Undefined index: salary in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-detail.php on line 817
+[26-Mar-2019 11:11:50 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-office-interview/office-interview-pending.php on line 210
+[26-Mar-2019 11:14:39 Asia/jakarta] PHP Notice:  Undefined index: salary in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-pending-details.php on line 925
+[26-Mar-2019 11:14:52 Asia/jakarta] PHP Notice:  Undefined index: salary in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-pending-details.php on line 925
+[26-Mar-2019 11:16:21 Asia/jakarta] PHP Notice:  Undefined index: salary in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-pending-details.php on line 925
+[26-Mar-2019 23:18:33 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[27-Mar-2019 10:06:57 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[27-Mar-2019 14:33:49 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[27-Mar-2019 14:37:43 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 159
+[27-Mar-2019 14:37:43 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 261
+[27-Mar-2019 14:38:51 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 159
+[27-Mar-2019 14:38:51 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 261
+[27-Mar-2019 14:40:23 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 159
+[27-Mar-2019 14:40:23 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 261
+[27-Mar-2019 14:40:39 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 159
+[27-Mar-2019 14:40:39 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 261
+[27-Mar-2019 14:41:15 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 159
+[27-Mar-2019 14:41:15 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 261
+[27-Mar-2019 14:42:18 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 159
+[27-Mar-2019 14:42:18 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 261
+[27-Mar-2019 14:42:31 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 159
+[27-Mar-2019 14:42:31 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 261
+[27-Mar-2019 14:42:52 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 159
+[27-Mar-2019 14:42:52 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 261
+[27-Mar-2019 14:44:29 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 159
+[27-Mar-2019 14:44:29 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 261
+[27-Mar-2019 14:45:30 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 159
+[27-Mar-2019 14:45:30 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 261
+[27-Mar-2019 14:46:33 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 159
+[27-Mar-2019 14:46:33 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 261
+[27-Mar-2019 14:46:52 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 159
+[27-Mar-2019 14:46:52 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 261
+[27-Mar-2019 14:47:07 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 159
+[27-Mar-2019 14:47:07 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 261
+[27-Mar-2019 14:47:49 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 159
+[27-Mar-2019 14:47:49 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 261
+[28-Mar-2019 10:54:49 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[29-Mar-2019 13:39:01 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[01-Apr-2019 08:24:15 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[01-Apr-2019 08:27:44 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[01-Apr-2019 13:25:31 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[01-Apr-2019 13:46:24 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[02-Apr-2019 09:40:24 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[02-Apr-2019 09:40:58 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[04-Apr-2019 09:39:48 Asia/jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's requirement', modified='2019-04-04 09:39:48' WHERE candidate_code = 'SHPUDSYEW' at line 1 in /home/u5974809/public_html/career/controller/controller.php:77
+Stack trace:
+#0 /home/u5974809/public_html/career/controller/controller.php(77): PDO->prepare('UPDATE sch_cand...')
+#1 /home/u5974809/public_html/career/controller/systemAdmin.php(16): controller_system->update('sch_cand_shippi...', Array, Array)
+#2 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php(95): SystemAdmin->updatedata('sch_cand_shippi...', Array, Array)
+#3 /home/u5974809/public_html/career/systemlogin/index.php(77): include_once('/home/u5974809/...')
+#4 {main}
+  thrown in /home/u5974809/public_html/career/controller/controller.php on line 77
+[04-Apr-2019 09:40:19 Asia/jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's requirement', modified='2019-04-04 09:40:19' WHERE candidate_code = 'SHPUDSYEW' at line 1 in /home/u5974809/public_html/career/controller/controller.php:77
+Stack trace:
+#0 /home/u5974809/public_html/career/controller/controller.php(77): PDO->prepare('UPDATE sch_cand...')
+#1 /home/u5974809/public_html/career/controller/systemAdmin.php(16): controller_system->update('sch_cand_shippi...', Array, Array)
+#2 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-pending-details.php(95): SystemAdmin->updatedata('sch_cand_shippi...', Array, Array)
+#3 /home/u5974809/public_html/career/systemlogin/index.php(77): include_once('/home/u5974809/...')
+#4 {main}
+  thrown in /home/u5974809/public_html/career/controller/controller.php on line 77
+[05-Apr-2019 08:51:44 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[05-Apr-2019 09:47:29 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[06-Apr-2019 16:55:11 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[08-Apr-2019 08:53:29 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[08-Apr-2019 09:03:26 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[08-Apr-2019 11:08:33 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[08-Apr-2019 13:10:30 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[08-Apr-2019 13:48:10 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[09-Apr-2019 18:26:59 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[10-Apr-2019 09:23:17 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[10-Apr-2019 09:24:44 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[10-Apr-2019 09:30:48 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 261
+[10-Apr-2019 09:32:32 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 159
+[10-Apr-2019 09:32:32 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 261
+[10-Apr-2019 09:33:03 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 159
+[10-Apr-2019 09:33:03 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 261
+[10-Apr-2019 10:09:37 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[10-Apr-2019 10:09:39 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[10-Apr-2019 10:35:17 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[10-Apr-2019 14:18:59 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[11-Apr-2019 16:32:46 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[11-Apr-2019 17:32:15 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[15-Apr-2019 11:24:34 Asia/jakarta] PHP Notice:  Undefined index: first_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 113
+[15-Apr-2019 11:24:34 Asia/jakarta] PHP Notice:  Undefined index: last_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 113
+[15-Apr-2019 19:51:48 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[15-Apr-2019 19:53:12 Asia/jakarta] PHP Notice:  Undefined index: first_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 113
+[15-Apr-2019 19:53:12 Asia/jakarta] PHP Notice:  Undefined index: last_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 113
+[15-Apr-2019 19:53:57 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-office-interview/office-interview-pending.php on line 210
+[15-Apr-2019 20:59:51 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[15-Apr-2019 21:02:15 Asia/jakarta] PHP Notice:  Undefined index: first_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 223
+[15-Apr-2019 21:02:15 Asia/jakarta] PHP Notice:  Undefined index: last_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 223
+[15-Apr-2019 21:02:19 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-office-interview/office-interview-pending.php on line 210
+[15-Apr-2019 21:02:45 Asia/jakarta] PHP Notice:  Undefined index: first_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 223
+[15-Apr-2019 21:02:45 Asia/jakarta] PHP Notice:  Undefined index: last_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 223
+[15-Apr-2019 21:03:18 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[15-Apr-2019 21:03:18 Asia/jakarta] PHP Notice:  Undefined index: first_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 223
+[15-Apr-2019 21:03:18 Asia/jakarta] PHP Notice:  Undefined index: last_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 223
+[24-Apr-2019 13:41:06 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[25-Apr-2019 10:46:51 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[25-Apr-2019 11:09:47 Asia/jakarta] PHP Notice:  Undefined index: job_banner in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 159
+[25-Apr-2019 11:09:47 Asia/jakarta] PHP Notice:  Undefined index: id in /home/u5974809/public_html/career/systemlogin/views/page-shipping-job/job-shipping-edit.php on line 261
+[25-Apr-2019 13:38:12 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[25-Apr-2019 13:38:13 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[29-Apr-2019 11:59:54 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[29-Apr-2019 13:19:41 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[29-Apr-2019 14:16:57 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[30-Apr-2019 09:38:06 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[30-Apr-2019 10:39:53 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[02-May-2019 14:18:23 Asia/jakarta] PHP Notice:  Undefined index: first_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 223
+[02-May-2019 14:18:23 Asia/jakarta] PHP Notice:  Undefined index: last_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 223
+[02-May-2019 15:16:56 Asia/jakarta] PHP Notice:  Undefined index: salary in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-pending-details.php on line 925
+[02-May-2019 15:18:11 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-office-interview/office-interview-pending.php on line 210
+[02-May-2019 15:49:07 Asia/jakarta] PHP Notice:  Undefined index: first_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 223
+[02-May-2019 15:49:07 Asia/jakarta] PHP Notice:  Undefined index: last_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 223
+[02-May-2019 17:04:31 Asia/jakarta] PHP Notice:  Undefined index: salary in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-pending-details.php on line 925
+[02-May-2019 17:25:06 Asia/jakarta] PHP Notice:  Undefined variable: data in /home/u5974809/public_html/career/systemlogin/views/page-office-job/job-office-add.php on line 27
+[02-May-2019 17:30:57 Asia/jakarta] PHP Notice:  Undefined variable: data in /home/u5974809/public_html/career/systemlogin/views/page-office-job/job-office-add.php on line 27
+[02-May-2019 17:33:01 Asia/jakarta] PHP Notice:  Undefined index: salary in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-pending-details.php on line 925
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:51:52 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:51:58 Asia/jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/u5974809/public_html/career/controller/controller.php:127
+Stack trace:
+#0 /home/u5974809/public_html/career/controller/controller.php(127): PDO->prepare('SELECT en_short...')
+#1 /home/u5974809/public_html/career/controller/systemAdmin.php(36): controller_system->runQuery('SELECT en_short...')
+#2 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected-details.php(17): SystemAdmin->fetch('SELECT en_short...')
+#3 /home/u5974809/public_html/career/systemlogin/index.php(89): include_once('/home/u5974809/...')
+#4 {main}
+  thrown in /home/u5974809/public_html/career/controller/controller.php on line 127
+[02-May-2019 21:52:01 Asia/jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/u5974809/public_html/career/controller/controller.php:127
+Stack trace:
+#0 /home/u5974809/public_html/career/controller/controller.php(127): PDO->prepare('SELECT en_short...')
+#1 /home/u5974809/public_html/career/controller/systemAdmin.php(36): controller_system->runQuery('SELECT en_short...')
+#2 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected-details.php(17): SystemAdmin->fetch('SELECT en_short...')
+#3 /home/u5974809/public_html/career/systemlogin/index.php(89): include_once('/home/u5974809/...')
+#4 {main}
+  thrown in /home/u5974809/public_html/career/controller/controller.php on line 127
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:07 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:15 Asia/jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/u5974809/public_html/career/controller/controller.php:127
+Stack trace:
+#0 /home/u5974809/public_html/career/controller/controller.php(127): PDO->prepare('SELECT en_short...')
+#1 /home/u5974809/public_html/career/controller/systemAdmin.php(36): controller_system->runQuery('SELECT en_short...')
+#2 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected-details.php(17): SystemAdmin->fetch('SELECT en_short...')
+#3 /home/u5974809/public_html/career/systemlogin/index.php(89): include_once('/home/u5974809/...')
+#4 {main}
+  thrown in /home/u5974809/public_html/career/controller/controller.php on line 127
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 173
+[02-May-2019 21:52:18 Asia/jakarta] PHP Notice:  Undefined index: notes in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 176
+[02-May-2019 22:01:02 Asia/jakarta] PHP Notice:  Undefined index: name in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 177
+[02-May-2019 22:03:45 Asia/jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'candidate_code!=''' at line 1 in /home/u5974809/public_html/career/controller/controller.php:113
+Stack trace:
+#0 /home/u5974809/public_html/career/controller/controller.php(113): PDO->prepare('SELECT a.*,b.jo...')
+#1 /home/u5974809/public_html/career/controller/systemAdmin.php(32): controller_system->Read('SELECT a.*,b.jo...')
+#2 /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-pending.php(289): SystemAdmin->fetch_all('SELECT a.*,b.jo...')
+#3 /home/u5974809/public_html/career/systemlogin/index.php(162): include_once('/home/u5974809/...')
+#4 {main}
+  thrown in /home/u5974809/public_html/career/controller/controller.php on line 113
+[02-May-2019 22:03:59 Asia/jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'a.candidate_code!=''' at line 1 in /home/u5974809/public_html/career/controller/controller.php:113
+Stack trace:
+#0 /home/u5974809/public_html/career/controller/controller.php(113): PDO->prepare('SELECT a.*,b.jo...')
+#1 /home/u5974809/public_html/career/controller/systemAdmin.php(32): controller_system->Read('SELECT a.*,b.jo...')
+#2 /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-pending.php(289): SystemAdmin->fetch_all('SELECT a.*,b.jo...')
+#3 /home/u5974809/public_html/career/systemlogin/index.php(162): include_once('/home/u5974809/...')
+#4 {main}
+  thrown in /home/u5974809/public_html/career/controller/controller.php on line 113
+[02-May-2019 22:22:54 Asia/jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u5974809_career.sch_jobs' doesn't exist in /home/u5974809/public_html/career/controller/controller.php:104
+Stack trace:
+#0 /home/u5974809/public_html/career/controller/controller.php(104): PDO->exec('DELETE FROM sch...')
+#1 /home/u5974809/public_html/career/controller/systemAdmin.php(20): controller_system->delete('sch_jobs', Array)
+#2 /home/u5974809/public_html/career/systemlogin/views/page-office-job/job-office-delete.php(6): SystemAdmin->deleteedata('sch_jobs', Array)
+#3 /home/u5974809/public_html/career/systemlogin/index.php(159): include_once('/home/u5974809/...')
+#4 {main}
+  thrown in /home/u5974809/public_html/career/controller/controller.php on line 104
+[02-May-2019 22:24:42 Asia/jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u5974809_career.sch_jobs' doesn't exist in /home/u5974809/public_html/career/controller/controller.php:104
+Stack trace:
+#0 /home/u5974809/public_html/career/controller/controller.php(104): PDO->exec('DELETE FROM sch...')
+#1 /home/u5974809/public_html/career/controller/systemAdmin.php(20): controller_system->delete('sch_jobs', Array)
+#2 /home/u5974809/public_html/career/systemlogin/views/page-office-job/job-office-delete.php(6): SystemAdmin->deleteedata('sch_jobs', Array)
+#3 /home/u5974809/public_html/career/systemlogin/index.php(159): include_once('/home/u5974809/...')
+#4 {main}
+  thrown in /home/u5974809/public_html/career/controller/controller.php on line 104
+[02-May-2019 22:54:55 Asia/jakarta] PHP Notice:  Undefined variable: cand in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 228
+[03-May-2019 16:13:38 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[06-May-2019 09:26:12 Asia/jakarta] PHP Notice:  Undefined index: first_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 223
+[06-May-2019 09:26:12 Asia/jakarta] PHP Notice:  Undefined index: last_name in /home/u5974809/public_html/career/systemlogin/views/page-office-candidate/office-candidate-interview-passed.php on line 223
+[06-May-2019 10:40:22 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[06-May-2019 10:56:29 Asia/jakarta] PHP Parse error:  syntax error, unexpected '}' in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 165
+[06-May-2019 10:56:38 Asia/jakarta] PHP Parse error:  syntax error, unexpected '}' in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected.php on line 165
+[06-May-2019 11:01:04 Asia/jakarta] PHP Notice:  Undefined index: user_session in /home/u5974809/public_html/career/systemlogin/index.php on line 12
+[06-May-2019 11:01:22 Asia/jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/u5974809/public_html/career/controller/controller.php:127
+Stack trace:
+#0 /home/u5974809/public_html/career/controller/controller.php(127): PDO->prepare('SELECT en_short...')
+#1 /home/u5974809/public_html/career/controller/systemAdmin.php(36): controller_system->runQuery('SELECT en_short...')
+#2 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected-details.php(17): SystemAdmin->fetch('SELECT en_short...')
+#3 /home/u5974809/public_html/career/systemlogin/index.php(89): include_once('/home/u5974809/...')
+#4 {main}
+  thrown in /home/u5974809/public_html/career/controller/controller.php on line 127
+[06-May-2019 11:01:41 Asia/jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/u5974809/public_html/career/controller/controller.php:127
+Stack trace:
+#0 /home/u5974809/public_html/career/controller/controller.php(127): PDO->prepare('SELECT en_short...')
+#1 /home/u5974809/public_html/career/controller/systemAdmin.php(36): controller_system->runQuery('SELECT en_short...')
+#2 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected-details.php(17): SystemAdmin->fetch('SELECT en_short...')
+#3 /home/u5974809/public_html/career/systemlogin/index.php(89): include_once('/home/u5974809/...')
+#4 {main}
+  thrown in /home/u5974809/public_html/career/controller/controller.php on line 127
+[06-May-2019 11:01:44 Asia/jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/u5974809/public_html/career/controller/controller.php:127
+Stack trace:
+#0 /home/u5974809/public_html/career/controller/controller.php(127): PDO->prepare('SELECT en_short...')
+#1 /home/u5974809/public_html/career/controller/systemAdmin.php(36): controller_system->runQuery('SELECT en_short...')
+#2 /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected-details.php(17): SystemAdmin->fetch('SELECT en_short...')
+#3 /home/u5974809/public_html/career/systemlogin/index.php(89): include_once('/home/u5974809/...')
+#4 {main}
+  thrown in /home/u5974809/public_html/career/controller/controller.php on line 127
+[06-May-2019 11:02:48 Asia/jakarta] PHP Notice:  Undefined index: category in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected-details.php on line 13
+[06-May-2019 11:02:48 Asia/jakarta] PHP Notice:  Undefined index: deck_engine in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected-details.php on line 184
+[06-May-2019 11:03:02 Asia/jakarta] PHP Notice:  Undefined index: category in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected-details.php on line 13
+[06-May-2019 11:03:02 Asia/jakarta] PHP Notice:  Undefined index: deck_engine in /home/u5974809/public_html/career/systemlogin/views/page-shipping-candidate/shipping-candidate-rejected-details.php on line 184

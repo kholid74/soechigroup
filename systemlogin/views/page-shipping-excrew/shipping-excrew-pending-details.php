@@ -1,11 +1,9 @@
 <?php 
 
-    error_reporting(E_ALL);
-
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\Exception;
    
-    require_once $_SERVER['DOCUMENT_ROOT'].'/soechi/vendor/autoload.php';
+    require_once dirname( __FILE__ ) . '../../../../vendor/autoload.php';
 
 
     $sql = "SELECT a.*,b.name,c.short_name FROM sch_ex_candidate a JOIN sch_master_vessel b ON a.id_last_ship=b.id JOIN sch_master_crewrank c ON a.id_last_rank=c.id WHERE a.id=".$_GET['ids']."";
@@ -48,31 +46,31 @@
 	    
         $mail = new PHPMailer(true);
 
-        		  $mail->SMTPDebug = 0;    
-			      $mail->isSMTP();                         
-			      $mail->Host = 'smtp.mailtrap.io'; 
-			      $mail->SMTPAuth = true;                      
-			      $mail->Username = 'a1526266572f65';   
-			      $mail->Password = '49a15dc8363a34';                
-			      $mail->SMTPSecure = 'tls';                         
-			      $mail->Port = 2525;                            
+        $mail->SMTPDebug = 0;    
+        $mail->isSMTP();                         
+        $mail->Host = 'smtp.gmail.com'; 
+        $mail->SMTPAuth = true;                      
+        $mail->Username = 'no-reply@soechi.com';   
+        $mail->Password = 'autocount2018!';                
+        $mail->SMTPSecure = 'tls';                         
+        $mail->Port = 587;
                   
-                  $message = file_get_contents(''.BASE_URL.'emailtemplates/shipping-excrew-shortlisted-send-userpass.html');
-    		      $message = str_replace("%candidate['first_name']%", $candidate['first_name'], $message);
-    		      $message = str_replace("%candidate['email']%", $candidate['email'], $message);
-    		      $message = str_replace("%password%", $password, $message);
-    		      $message = str_replace("%BASE_URL%", BASE_URL, $message);          
-                  //Recipients
-                  $mail->setFrom('demo@essentials.id', 'Soechi Recruitment');
-                  $mail->addAddress(''.$candidate['email'].'', 'Candidate');  
-                  $mail->addReplyTo('demo@essentials.id', 'Information');
+	    $message = file_get_contents(''.BASE_URL.'emailtemplates/shipping-excrew-shortlisted-send-userpass.html');
+	    $message = str_replace("%candidate['first_name']%", $candidate['first_name'], $message);
+	    $message = str_replace("%candidate['email']%", $candidate['email'], $message);
+	    $message = str_replace("%password%", $password, $message);
+	    $message = str_replace("%BASE_URL%", BASE_URL, $message);          
+	    //Recipients
+	    $mail->setFrom('no-reply@soechi.com', 'Soechi Recruitment');
+	    $mail->addAddress(''.$candidate['email'].'', 'Candidate');  
+	    $mail->addReplyTo('no-reply@soechi.com', 'Information');
 
-                  //Content
-                  $mail->isHTML(true);              
-                  $mail->Subject = '[no-reply] Congratulation to the next process';
-                  $mail->MsgHTML($message);
+	    //Content
+	    $mail->isHTML(true);              
+	    $mail->Subject = '[no-reply] Congratulation to the next process';
+	    $mail->MsgHTML($message);
 
-                  $mail->send();
+	    $mail->send();
 
         @$msg = $_SESSION['statusMsg'] = $statusMsg;
         echo "<script> window.location.assign('".$object->base_path()."shipping-excrew-candidate-pending'); </script>";
@@ -172,7 +170,7 @@ if(isset($_POST['_saveRemarks'])) {
 		<div id="ui-view" style="opacity: 1;">
 			<div class="animated fadeIn">
 				<h4 style="text-align: center">EX-CREW DETAILS</h4>
-				<center><span style="font-size: 15px;">VECTOR MARITIM SHIP MANAGEMENT</span></center>
+				<center><span style="font-size: 15px;">VEKTOR MARITIM SHIP MANAGEMENT</span></center>
 				<div class="card">
 					<div class="card-header">
 						
@@ -456,20 +454,20 @@ if(isset($_POST['_saveRemarks'])) {
 							       <form role="form" method="POST" enctype="multipart/form-data">
 							          <div class="form-group">
 							            <label for="message-text" class="col-form-label">Please give rejection reason :</label>
-													<select class="form-control" name="_reason_reject" id="_reason_reject">
+
+							            <select class="form-control" name="_reason_reject" id="_reason_reject">
 													<option selected disabled>Select Reason to Reject</option>
 							            <?php 
 							            	$sql = "SELECT * FROM sch_master_reason_reject";
-														$reject = $object->fetch_all($sql);
-														if (count($reject) > 0) {
-															foreach ($reject as $rejct) {?>
-														
-														<option value="<?= $rejct['reason'] ?>"><?= $rejct['reason'] ?></option>
-													<?php }} ?>
+											$reject = $object->fetch_all($sql);
+												if (count($reject) > 0) {
+													foreach ($reject as $rejct) {?>
+												<option value="<?= $rejct['reason'] ?>"><?= $rejct['reason'] ?></option>
+											<?php }} ?>
 
-													</select>
-													<br>
-													<textarea name="_reason_reject" id="_reason" cols="65" rows="4" placeholder="Input Reason Reject (Fill this if there are no suitable options above.)" ></textarea>					            
+										</select>
+										<br>
+										<textarea name="_reason_reject" id="_reason" cols="65" rows="4" placeholder="Input Reason Reject (Fill this if there are no suitable options above.)" ></textarea>
 							           
 							          </div>
 
@@ -533,10 +531,3 @@ if(isset($_POST['_saveRemarks'])) {
           </div>
         </div>
     </div>
-
-		<script>
-		function showDiv(divId, element)
-{
-    document.getElementById(divId).style.display = element.value == 1 ? 'block' : 'none';
-}
-		</script>

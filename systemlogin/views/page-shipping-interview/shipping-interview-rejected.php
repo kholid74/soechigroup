@@ -44,7 +44,7 @@
 		<div id="ui-view" style="opacity: 1;">
 			<div class="animated fadeIn">
 				<h4 style="text-align: center">INTERVIEW SCHEDULE REJECTED</h4>
-				<center><span style="font-size: 15px;">VECTOR MARITIM SHIP MANAGEMENT</span></center>	
+				<center><span style="font-size: 15px;">VEKTOR MARITIM SHIP MANAGEMENT</span></center>	
 				<div class="card">
 					
 				<div class="card-body">
@@ -64,16 +64,16 @@
 							<tr>
 								<td style="font-weight: bold;text-align: center;">No</td>
 								<td style="font-weight: bold;text-align: center;">Candidate Name</td>
-								<td style="font-weight: bold;text-align: center;">position</td>
-								<td style="font-weight: bold;text-align: center;">Date / Time</td>
+								<td style="font-weight: bold;text-align: center;">Job Name</td>
+								<td style="font-weight: bold;text-align: center;">Date</td>
+								<td style="font-weight: bold;text-align: center;">Time</td>
 								<td style="font-weight: bold;text-align: center;">Action</td>
 							</tr>
 						</thead>
 						<tbody>
 							<?php 
 
-						    	$sql = "SELECT a.*, b.first_name,b.last_name,b.email,b.candidate_code, c.id_job_name FROM sch_interview_schedule a JOIN sch_candidate_shipping b ON a.id_candidate=b.id JOIN sch_job_shipping c ON b.id_job=c.id WHERE a.category='shipping' AND a.status='2'"; 
-
+						    	$sql = "SELECT a.*, b.first_name,b.last_name,b.email,b.candidate_code, c.id_job_name FROM sch_interview_schedule a JOIN sch_candidate_shipping b ON a.id_candidate=b.id JOIN sch_job_shipping c ON b.id_job=c.id WHERE a.category='shipping' AND a.status='2'";
 								$candidate = $object->fetch_all($sql);
 								if (count($candidate) > 0) {
 									$number = 1;
@@ -87,7 +87,8 @@
 								<td><?php echo $number;?></td>
 								<td><?= $cand['first_name'] ?> <?= $cand['last_name'] ?></td>
 								<td><?= $jobName['name'] ?></td>
-								<td align="center"><?= $object->dateConvertEng($cand['date']); ?> / <?= $cand['time'] ?></td>
+								<td align="center"><?= $object->dateConvertEng($cand['date']); ?></td>
+								<td align="center"><?= $cand['time'] ?></td>
 								<td align="center">
 									<span data-toggle="modal" data-target="#interview" class="btn btn-primary btn-sm">SET MANUAL SCHEDULE</span>
 
@@ -117,7 +118,7 @@
 							        $conditions = array('id' =>strip_tags($_POST['id']));
 							        $statusMsg =  $object->updatedata($namatable,$data,$conditions);
 							        
-							        $message = file_get_contents(''.BASE_URL.'emailtemplates/shipping-barcode-manual-schedule.html');
+							        $message = file_get_contents(''.BASE_URL.'emailtemplates/shipping-barcode.html');
 							        $message = str_replace("%cand['first_name']%", $cand['first_name'], $message);
 							        $message = str_replace("%cand['last_name']%", $cand['last_name'], $message);
 							        $message = str_replace("%jobName['name']%", $jobName['name'], $message);
@@ -128,29 +129,29 @@
 							        $message = str_replace("%BASE_URL%", BASE_URL, $message);
 							       
 							        $mail = new PHPMailer(true);                             
-							                  
-				        		  	$mail->SMTPDebug = 0;    
-								    $mail->isSMTP();                         
-								    $mail->Host = 'smtp.mailtrap.io'; 
-								    $mail->SMTPAuth = true;                      
-								    $mail->Username = 'a1526266572f65';   
-								    $mail->Password = '49a15dc8363a34';                
-								    $mail->SMTPSecure = 'tls';                         
-								    $mail->Port = 2525;         
+							      	
+							      	$mail->SMTPDebug = 0;    
+							        $mail->isSMTP();                         
+							        $mail->Host = 'smtp.gmail.com'; 
+							        $mail->SMTPAuth = true;                      
+							        $mail->Username = 'no-reply@soechi.com';   
+							        $mail->Password = 'autocount2018!';                
+							        $mail->SMTPSecure = 'tls';                         
+							        $mail->Port = 587;
 
-										//Recipients
-										$mail->setFrom('demo@essentials.id', 'Soechi Recruitment');
-										$mail->addAddress(''.$cand['email'].'', ''.$cand['first_name'].' '.$cand['last_name'].'');    
-										$mail->addReplyTo('demo@essentials.id', 'Information');
+				                  	//Recipients
+				                  	$mail->setFrom('no-reply@soechi.com', 'Soechi Recruitment');
+				                  	$mail->addAddress(''.$cand['email'].'', ''.$cand['first_name'].' '.$cand['last_name'].'');    
+				                  	$mail->addReplyTo('no-reply@soechi.com', 'Information');
 
-										//Content
-										$mail->isHTML(true);                                 
-										$mail->Subject = '[no-reply] Interview Schedule';
-										$mail->MsgHTML($message);
+				                  	//Content
+				                  	$mail->isHTML(true);                                 
+				                  	$mail->Subject = '[no-reply] Interview Schedule';
+				                  	$mail->MsgHTML($message);
 
-										$mail->send();
+				                  	$mail->send();
 
-							      @$msg = $_SESSION['statusMsg'] = $statusMsg;
+							        @$msg = $_SESSION['statusMsg'] = $statusMsg;
 							        echo "<script> window.location.assign('".$object->base_path()."s-interview-schedule-rejected'); </script>";
 											  
 								}

@@ -43,23 +43,21 @@
                   $message = str_replace("%showCand['full_name']%", $showCand['full_name'], $message);
                   $message = str_replace("%showJob['job_title']%", $showJob['job_title'], $message);
 
-                  $mail = new PHPMailer(true);                     
-                  
-                  //SMTPconfig();
-                  
+                  $mail = new PHPMailer(true);
+
                   $mail->SMTPDebug = 0;    
                   $mail->isSMTP();                         
-                  $mail->Host = 'smtp.mailtrap.io'; 
+                  $mail->Host = 'smtp.gmail.com'; 
                   $mail->SMTPAuth = true;                      
-                  $mail->Username = 'a1526266572f65';   
-                  $mail->Password = '49a15dc8363a34';                
+                  $mail->Username = 'no-reply@soechi.com';   
+                  $mail->Password = 'autocount2018!';                
                   $mail->SMTPSecure = 'tls';                         
-                  $mail->Port = 2525;                
-                     
+                  $mail->Port = 587;                     
+                  
                   //Recipients
-                  $mail->setFrom('demo@essentials.id', 'Soechi Recruitment');
+                  $mail->setFrom('no-reply@soechi.com', 'Soechi Recruitment');
                   $mail->addAddress(''.$showCand['email'].'', 'Candidate');    
-                  $mail->addReplyTo('demo@essentials.id', 'Information');
+                  $mail->addReplyTo('no-reply@soechi.com', 'Information');
 
                   //Content
                   $mail->isHTML(true);                              

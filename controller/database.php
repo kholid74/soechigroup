@@ -25,28 +25,13 @@ class database
     # @array, The parameters of the SQL query
     private $parameters;
 
-    //database development
-
-    /* public $default = array(
-        'datasource' => 'Database/Mysql',
-        'persistent' => false,
-        'host' => 'localhost',
-        'login' => 'root',
-        'password' => '',
-        'database' => 'soechi_dev',
-        'prefix' => 'sch_',
-        'encoding' => 'UTF8',
-        'port' => '',
-    ); */
-
-    //database production
     public $default = array(
         'datasource' => 'Database/Mysql',
         'persistent' => false,
         'host' => 'localhost',
-        'login' => 'root',
-        'password' => '',
-        'database' => 'soechi_prod',
+        'login' => 'u5974809_career',
+        'password' => 'soechicareer',
+        'database' => 'u5974809_career',
         'prefix' => 'sch_',
         'encoding' => 'UTF8',
         'port' => '',

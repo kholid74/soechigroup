@@ -95,21 +95,21 @@
         $message = str_replace("%shwschedule['img_qrcode']%", $shwschedule['img_qrcode'], $message);
         $message = str_replace("%BASE_URL%", BASE_URL, $message);
        
-        $mail = new PHPMailer(true);                             
-                  
-	  	$mail->SMTPDebug = 0;    
-	      $mail->isSMTP();                         
-	      $mail->Host = 'smtp.mailtrap.io'; 
-	      $mail->SMTPAuth = true;                      
-	      $mail->Username = 'a1526266572f65';   
-	      $mail->Password = '49a15dc8363a34';                
-	      $mail->SMTPSecure = 'tls';                         
-	      $mail->Port = 2525;       
+        $mail = new PHPMailer(true);
 
+        $mail->SMTPDebug = 0;    
+        $mail->isSMTP();                         
+        $mail->Host = 'smtp.gmail.com'; 
+        $mail->SMTPAuth = true;                      
+        $mail->Username = 'no-reply@soechi.com';   
+        $mail->Password = 'autocount2018!';                
+        $mail->SMTPSecure = 'tls';                         
+        $mail->Port = 587;                             
+       
       	//Recipients
-      	$mail->setFrom('demo@essentials.id', 'Soechi Recruitment');
+      	$mail->setFrom('no-reply@soechi.com', 'Soechi Recruitment');
       	$mail->addAddress(''.$candidate['email'].'', ''.$candidate['first_name'].' '.$candidate['last_name'].'');    
-      	$mail->addReplyTo('demo@essentials.id', 'Information');
+      	$mail->addReplyTo('no-reply@soechi.com', 'Information');
 
       	//Content
       	$mail->isHTML(true);                                 
@@ -138,19 +138,19 @@
        
         $mail = new PHPMailer(true);                             
                   
-		  $mail->SMTPDebug = 0;    
-	      $mail->isSMTP();                         
-	      $mail->Host = 'smtp.mailtrap.io'; 
-	      $mail->SMTPAuth = true;                      
-	      $mail->Username = 'a1526266572f65';   
-	      $mail->Password = '49a15dc8363a34';                
-	      $mail->SMTPSecure = 'tls';                         
-	      $mail->Port = 2525;         
+		$mail->SMTPDebug = 0;    
+        $mail->isSMTP();                         
+        $mail->Host = 'smtp.gmail.com'; 
+        $mail->SMTPAuth = true;                      
+        $mail->Username = 'no-reply@soechi.com';   
+        $mail->Password = 'autocount2018!';                
+        $mail->SMTPSecure = 'tls';                         
+        $mail->Port = 587;         
 
 	      //Recipients
-	      $mail->setFrom('demo@essentials.id', 'Soechi Recruitment');
+	      $mail->setFrom('no-reply@soechi.com', 'Soechi Recruitment');
 	      $mail->addAddress(''.$candidate['email'].'', ''.$candidate['first_name'].' '.$candidate['last_name'].'');    
-	      $mail->addReplyTo('demo@essentials.id', 'Information');
+	      $mail->addReplyTo('no-reply@soechi.com', 'Information');
 
 	      //Content
 	      $mail->isHTML(true);                                 
@@ -186,7 +186,7 @@
 		<div id="ui-view" style="opacity: 1;">
 			<div class="animated fadeIn">
 				<h4 style="text-align: center">PENDING INTERVIEW SCHEDULE</h4>
-				<center><span style="font-size: 15px;">VECTOR MARITIM SHIP MANAGEMENT</span></center>
+				<center><span style="font-size: 15px;">VEKTOR MARITIM SHIP MANAGEMENT</span></center>
 				<div class="card">
 					<div class="card-header">
 						

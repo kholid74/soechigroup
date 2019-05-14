@@ -71,7 +71,7 @@
 		<div id="ui-view" style="opacity: 1;">
 			<div class="animated fadeIn">
 				<h4 style="text-align: center">ONLINE TEST CANDIDATE</h4>
-				<center><span style="font-size: 15px;">VECTOR MARITIM SHIP MANAGEMENT</span></center>
+				<center><span style="font-size: 15px;">VEKTOR MARITIM SHIP MANAGEMENT</span></center>
 				<div class="card">
 					<div class="card-header">
 						

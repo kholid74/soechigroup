@@ -95,21 +95,6 @@
       });
     }
 </script>
-<script>
-$('#select').change(function(){
-
-var textarea = $('_reason');
-var select   = $('#_reason_reject').val();
-
-textarea.hide();
-
-if (select == 'Other'){
-  textarea.show();
-}else{
-	textarea.hide();
-}
-});
-</script>
 
   <!-- CoreUI main scripts -->
 

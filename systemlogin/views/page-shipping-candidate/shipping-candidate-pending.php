@@ -1,13 +1,4 @@
-<?php
-
-if ($authadmin['level'] == '4' OR $authadmin['level'] == '5') 
-{
- 	echo "<script> window.location.assign('".$object->base_path()."403');</script>";
-} 
-else
-{
-
-
+<?php 
 
   /*Number of Crew Applied Pending Review*/
   $sql1   = "SELECT a.*,b.id_job_name,c.name,d.status FROM sch_candidate_shipping a JOIN sch_job_shipping b ON a.id_job = b.id JOIN sch_master_crewrank c ON b.id_job_name=c.id JOIN sch_cand_shipping_status d ON a.candidate_code=d.candidate_code WHERE d.status='PENDING_REVIEW'";
@@ -202,5 +193,3 @@ else
 			</div>
 		</div>
 	</div>
-
-	<?php } ?>

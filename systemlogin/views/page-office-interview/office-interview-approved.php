@@ -120,22 +120,22 @@
 
 								        $mail = new PHPMailer(true);
 
-									  	$mail->SMTPDebug = 0;    
-									    $mail->isSMTP();                         
-									    $mail->Host = 'smtp.mailtrap.io'; 
-									    $mail->SMTPAuth = true;                      
-									    $mail->Username = 'a1526266572f65';   
-									    $mail->Password = '49a15dc8363a34';                
-									    $mail->SMTPSecure = 'tls';                         
-									    $mail->Port = 2525;                            
-								      
+								        $mail->SMTPDebug = 0;    
+								        $mail->isSMTP();                         
+								        $mail->Host = 'smtp.gmail.com'; 
+								        $mail->SMTPAuth = true;                      
+								        $mail->Username = 'no-reply@soechi.com';   
+								        $mail->Password = 'autocount2018!';                
+								        $mail->SMTPSecure = 'tls';                         
+								        $mail->Port = 587;
+        
 								      	$message = file_get_contents(''.BASE_URL.'emailtemplates/office-passes-interview.html');
 								      	$message = str_replace("%cand['full_name']%", $cand['full_name'], $message);
 								      	
 								      	//Recipients
-								      	$mail->setFrom('demo@essentials.id', 'Soechi Recruitment');
+								      	$mail->setFrom('no-reply@soechi.com', 'Soechi Recruitment');
 								      	$mail->addAddress(''.$cand['email'].'', 'Candidate');  
-								      	$mail->addReplyTo('demo@essentials.id', 'Information');
+								      	$mail->addReplyTo('no-reply@soechi.com', 'Information');
 
 								      	//Content
 								      	$mail->isHTML(true);              

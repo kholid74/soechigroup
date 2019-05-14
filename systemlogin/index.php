@@ -1,5 +1,5 @@
-<?php
-define('BASE_URL', "http://".$_SERVER['HTTP_HOST'].'/soechi/');
+<?php error_reporting(0);
+define('BASE_URL', "http://".$_SERVER['HTTP_HOST'].'/');
 include_once dirname(__FILE__).DIRECTORY_SEPARATOR.'../controller/Autoloader.php';
 include_once dirname(__FILE__).DIRECTORY_SEPARATOR.'../controller/auth-login.php';
 
@@ -155,8 +155,8 @@ elseif(@$_GET['page']=='add-job-office'):
 elseif(@$_GET['page']=='edit-job-office'):
 	include_once dirname(__FILE__).DIRECTORY_SEPARATOR.'views/page-office-job/job-office-edit.php';
 
-elseif(@$_GET['page']=='delete-job'):
-	include_once dirname(__FILE__).DIRECTORY_SEPARATOR.'views/page-office-job/job-delete.php';
+elseif(@$_GET['page']=='delete-job-office'):
+	include_once dirname(__FILE__).DIRECTORY_SEPARATOR.'views/page-office-job/job-office-delete.php';
 
 elseif(@$_GET['page']=='office-candidate-pending'):
 	include_once dirname(__FILE__).DIRECTORY_SEPARATOR.'views/page-office-candidate/office-candidate-pending.php';
@@ -246,9 +246,6 @@ elseif(@$_GET['page']=='master-email-boc'):
 
 elseif(@$_GET['page']=='master-data'):
 	include_once dirname(__FILE__).DIRECTORY_SEPARATOR.'views/page-master/master-data.php';
-
-elseif(@$_GET['page']=='403'):
-	include_once dirname(__FILE__).DIRECTORY_SEPARATOR.'views/403.php';
 
 else:
 	include_once dirname(__FILE__).DIRECTORY_SEPARATOR.'views/page-dashboard/index.php';

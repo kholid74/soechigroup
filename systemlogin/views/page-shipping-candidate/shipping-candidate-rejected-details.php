@@ -5,7 +5,10 @@
    
     require_once dirname( __FILE__ ) . '../../../../vendor/autoload.php';
 
-	$sql = "SELECT a.*,b.id_job_name,c.name,c.deck_engine,c.category,d.status,d.notes FROM sch_candidate_shipping a JOIN sch_job_shipping b ON a.id_job = b.id JOIN sch_master_crewrank c ON b.id_job_name=c.id JOIN sch_cand_shipping_status d ON a.candidate_code=d.candidate_code WHERE a.id=".$_GET['ids']."";
+	$sql = "SELECT a.*,c.name,d.status,d.notes 
+			FROM sch_candidate_shipping a  
+			JOIN sch_master_crewrank c ON a.id_job=c.id 
+			JOIN sch_cand_shipping_status d ON a.candidate_code=d.candidate_code WHERE a.id=".$_GET['ids']."";
 	$candidate = $object->fetch($sql);
 	$catCandidate = $candidate['category'];
 	$canCode = $candidate['candidate_code'];
@@ -87,15 +90,6 @@
 	    $object->add($activeCand);
 
         $mail = new PHPMailer(true);
-
-	    $mail->SMTPDebug = 0;    
-	    $mail->isSMTP();                         
-	    $mail->Host = 'smtp.mailtrap.io'; 
-	    $mail->SMTPAuth = true;                      
-	    $mail->Username = 'a1526266572f65';   
-	    $mail->Password = '49a15dc8363a34';                
-	    $mail->SMTPSecure = 'tls';                         
-	    $mail->Port = 2525;                            
 	      
 	    $message = file_get_contents(''.BASE_URL.'emailtemplates/shipping-shortlisted-send-userpass.html');
 	    $message = str_replace("%candidate['first_name']%", $candidate['first_name'], $message);
@@ -103,10 +97,19 @@
 	    $message = str_replace("%password%", $password, $message);
 	    $message = str_replace("%BASE_URL%", BASE_URL, $message);          
 	    
+	    $mail->SMTPDebug = 0;    
+        $mail->isSMTP();                         
+        $mail->Host = 'smtp.gmail.com'; 
+        $mail->SMTPAuth = true;                      
+        $mail->Username = 'no-reply@soechi.com';   
+        $mail->Password = 'autocount2018!';                
+        $mail->SMTPSecure = 'tls';                         
+        $mail->Port = 587;
+
 	    //Recipients
-	    $mail->setFrom('demo@essentials.id', 'Soechi Recruitment');
+	    $mail->setFrom('no-reply@soechi.com', 'Soechi Recruitment');
 	    $mail->addAddress(''.$candidate['email'].'', 'Candidate');  
-	    $mail->addReplyTo('demo@essentials.id', 'Information');
+	    $mail->addReplyTo('no-reply@soechi.com', 'Information');
 
 	    //Content
 	    $mail->isHTML(true);              
@@ -453,7 +456,7 @@
                                   <thead>
                                     <tr style="font-weight: bold;">
                                       <td align="center">Document Name</td>
-																			<td align="center">Document Number</td>
+                                      <td align="center">Document Number</td>
                                       <td align="center">Document Issue Place</td>
                                       <td align="center">Document Issue Country</td>
                                       <td align="center">Date Issued</td>
@@ -478,7 +481,7 @@
                                   ?>
                                   <tr>
                                     <td><?= $docUpload['document_name'] ?></td>
-																		<td><?= $candDoc['document_number'] ?></td>
+                                    <td><?= $candDoc['document_number'] ?></td>
                                     <td><?= $candDoc['document_issue_place'] ?></td>
                                     <td><?= $candDoc['document_issue_country'] ?></td>
                                     <td align="center"><?= $candDoc['date_issued'] ?></td>

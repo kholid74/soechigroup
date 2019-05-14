@@ -59,18 +59,18 @@
         </li>
       </ol>
 
-	<div class="container-fluid">
-		<div id="ui-view" style="opacity: 1;">
-			<div class="animated fadeIn">
-				<h4 style="text-align: center">REJECTED CANDIDATE</h4>
-				<center><span style="font-size: 15px;">VEKTOR MARITIM SHIP MANAGEMENT</span></center>
-				<div class="card">
-					<div class="card-header">
-						
-					</div>
-				<div class="card-body">
+  <div class="container-fluid">
+    <div id="ui-view" style="opacity: 1;">
+      <div class="animated fadeIn">
+        <h4 style="text-align: center">REJECTED CANDIDATE</h4>
+        <center><span style="font-size: 15px;">VEKTOR MARITIM SHIP MANAGEMENT</span></center>
+        <div class="card">
+          <div class="card-header">
+            
+          </div>
+        <div class="card-body">
 
-						    <?php
+                <?php
                   if(!empty($_SESSION['statusMsg'])){
                       echo '
                          <div class="alert alert-success" role="alert">
@@ -80,27 +80,27 @@
                   }
                 ?>
                     <div align="center">
-                    	
+                      
                       <a href="<?php echo $object->base_path()?>shipping-candidate-pending" class="btn btn-outline-secondary ">
-                    		<span class="badge badge-pill badge-primary" style="background-color: #0f5396"><?php echo $count1; ?></span> PENDING REVIEW
-                    	</a>
+                        <span class="badge badge-pill badge-primary" style="background-color: #0f5396"><?php echo $count1; ?></span> PENDING REVIEW
+                      </a>
 
-	                    <a href="<?php echo $object->base_path()?>shipping-candidate-shortlisted" class="btn btn-outline-secondary">
-	                    	<span class="badge badge-pill badge-primary" style="background-color: #0f5396"><?php echo $count2; ?></span> SHORTLISTED</a>
-	                    
+                      <a href="<?php echo $object->base_path()?>shipping-candidate-shortlisted" class="btn btn-outline-secondary">
+                        <span class="badge badge-pill badge-primary" style="background-color: #0f5396"><?php echo $count2; ?></span> SHORTLISTED</a>
+                      
                       <a href="<?php echo $object->base_path()?>shipping-candidate-rejected" class="btn btn-outline-secondary active">
-	                    	<span class="badge badge-pill badge-primary" style="background-color: #0f5396"><?php echo $count3; ?></span> REJECTED</a>
-	                    
+                        <span class="badge badge-pill badge-primary" style="background-color: #0f5396"><?php echo $count3; ?></span> REJECTED</a>
+                      
                       <a href="<?php echo $object->base_path()?>shipping-candidate-online-test" class="btn btn-outline-secondary">
                         <span class="badge badge-pill badge-primary" style="background-color: #0f5396"><?php echo $countest; ?></span> ONLINE TEST</a>
                         
                       <a href="<?php echo $object->base_path()?>shipping-candidate-interview-passed" class="btn btn-outline-secondary">
-	                    	<span class="badge badge-pill badge-primary" style="background-color: #0f5396"><?php echo $count4; ?></span> INTERVIEW PASSED</a>
-	                    
+                        <span class="badge badge-pill badge-primary" style="background-color: #0f5396"><?php echo $count4; ?></span> INTERVIEW PASSED</a>
+                      
                       <a href="<?php echo $object->base_path()?>shipping-candidate-interview-failed" class="btn btn-outline-secondary">
-	                    	<span class="badge badge-pill badge-primary" style="background-color: #0f5396"><?php echo $count5; ?></span> INTERVIEW FAILED</a>
+                        <span class="badge badge-pill badge-primary" style="background-color: #0f5396"><?php echo $count5; ?></span> INTERVIEW FAILED</a>
                     </div>
-					<br>
+          <br>
 
           <form method="post">
             <div class="form-inline">
@@ -135,68 +135,77 @@
 
           <br>
 
-					<div class="tab-content" id="myTab1Content">
-						<div class="tab-pane fade active show" id="pending" role="tabpanel" aria-labelledby="pending-tab">
-							<table class="table table-responsive-sm table-bordered table-striped table-sm" id="example">
-								<thead>
-									<tr>
-										<td style="font-weight: bold;text-align: center;">No</td>
-										<td style="font-weight: bold;text-align: center;">Name</td>
-										<td style="font-weight: bold;text-align: center;">Job Vacancy</td>
-										<!-- <td style="font-weight: bold;text-align: center;">Email</td> -->
+          <div class="tab-content" id="myTab1Content">
+            <div class="tab-pane fade active show" id="pending" role="tabpanel" aria-labelledby="pending-tab">
+              <table class="table table-responsive-sm table-bordered table-striped table-sm" id="example">
+                <thead>
+                  <tr>
+                    <td style="font-weight: bold;text-align: center;">No</td>
+                    <td style="font-weight: bold;text-align: center;">Name</td>
+                    <td style="font-weight: bold;text-align: center;">Job Vacancy</td>
+                    <!-- <td style="font-weight: bold;text-align: center;">Email</td> -->
                     <td style="font-weight: bold;text-align: center;">Status</td>
-										<td style="font-weight: bold;text-align: center;">Reason</td>
-										<td style="font-weight: bold;text-align: center;">Action</td>
-									</tr>
-								</thead>
-								<tbody>
-									<?php
+                    <td style="font-weight: bold;text-align: center;">Reason</td>
+                    <td style="font-weight: bold;text-align: center;">Action</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <?php
 
                   if(isset($_POST['_filterCand'])){
 
                     $jobVac  = $_POST['_jobvac']; 
-                      $sql = "SELECT a.*,b.id_job_name,c.name,d.status,d.notes FROM sch_candidate_shipping a JOIN sch_job_shipping b ON a.id_job = b.id JOIN sch_master_crewrank c ON b.id_job_name=c.id JOIN sch_cand_shipping_status d ON a.candidate_code=d.candidate_code WHERE d.status='REJECTED' OR d.status='REJECT_MANAGER_DECISION' AND c.name='$jobVac'";
+                  	//$sql = "SELECT a.*,b.id_job_name,c.name,d.status,d.notes FROM sch_candidate_shipping a JOIN sch_job_shipping b ON a.id_job = b.id JOIN sch_master_crewrank c ON b.id_job_name=c.id JOIN sch_cand_shipping_status d ON a.candidate_code=d.candidate_code WHERE d.status='REJECTED' OR d.status='REJECT_MANAGER_DECISION' AND c.name='$jobVac'";
+                  	$sql = "SELECT a.*,c.name,d.status,d.notes 
+							FROM sch_candidate_shipping a  
+							JOIN sch_master_crewrank c ON a.id_job=c.id 
+							JOIN sch_cand_shipping_status d ON a.candidate_code=d.candidate_code 
+							WHERE a.candidate_code!='' AND (d.status='REJECTED' OR d.status='REJECT_MANAGER_DECISION') AND c.name='$jobVac'";
 
                   }else{
 
-                    $sql = "SELECT a.*,b.id_job_name,c.name,d.status,d.notes FROM sch_candidate_shipping a JOIN sch_job_shipping b ON a.id_job = b.id JOIN sch_master_crewrank c ON b.id_job_name=c.id JOIN sch_cand_shipping_status d ON a.candidate_code=d.candidate_code WHERE d.status='REJECTED' OR d.status='REJECT_MANAGER_DECISION'";
+                    $sql = "SELECT a.*,c.name,d.status,d.notes 
+							FROM sch_candidate_shipping a  
+							JOIN sch_master_crewrank c ON a.id_job=c.id 
+							JOIN sch_cand_shipping_status d ON a.candidate_code=d.candidate_code 
+							WHERE a.candidate_code!='' AND (d.status='REJECTED' OR d.status='REJECT_MANAGER_DECISION')";
                   } 
-								    	
-								    	
-										$candidate = $object->fetch_all($sql);
-										if (count($candidate) > 0) {
-											$number = 1;
-											foreach ($candidate as $cand) {?>
-									<tr>
-										<td><?php echo $number;?></td>
-										<td><?= $cand['first_name'] ?> <?= $cand['last_name'] ?></td>
-										<td><?= $cand['name'] ?></td>
-										<!-- <td><?= $cand['email'] ?></td> -->
+                      
+                      
+                    $candidate = $object->fetch_all($sql);
+                    if (count($candidate) > 0) {
+                      $number = 1;
+                      foreach ($candidate as $cand) {?>
+                  <tr>
+                    <td><?php echo $number;?></td>
+                    <td><?= $cand['first_name'] ?> <?= $cand['last_name'] ?></td>
+                    <td><?= $cand['name'] ?></td>
+                    <!-- <td><?= $cand['email'] ?></td> -->
                     <td align="center"><span class='badge badge-danger'><?= $cand['status'] ?></span></td>
-										<td><?= $cand['notes'] ?></td>
-										<td align="center">
-											<a class="btn btn-success btn-sm" href="<?php echo $object->base_path()?>shipping-candidate-rejected-details/<?= $cand['id'] ?>" title="view <?= $cand['first_name'] ?> <?= $cand['last_name'] ?>">
-											<i class="fa fa-eye"></i>&nbsp;VIEW
-											</a>
-										</td>
-										<!-- <td align="center">
-											<span data-toggle="modal" data-target="#action" class="btn btn-flat btn-danger btn-sm">ACTION</span>
-										</td> -->
-									</tr>
-									<?php
-							    	$number++;
-							    	}}?>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                    <td><?= $cand['notes'] ?></td>
+                    <td align="center">
+                      <a class="btn btn-success btn-sm" href="<?php echo $object->base_path()?>shipping-candidate-rejected-details/<?= $cand['id'] ?>" title="view <?= $cand['first_name'] ?> <?= $cand['last_name'] ?>">
+                      <i class="fa fa-eye"></i>&nbsp;VIEW
+                      </a>
+                    </td>
+                    <!-- <td align="center">
+                      <span data-toggle="modal" data-target="#action" class="btn btn-flat btn-danger btn-sm">ACTION</span>
+                    </td> -->
+                  </tr>
+                  <?php
+                    $number++;
+                    }}?>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-	<!-- Modal -->
+  <!-- Modal -->
   <div class="modal" id="action" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
@@ -214,9 +223,9 @@
             <div class="col-md-12">
 
               <div align="center" class="col-md-8 offset-md-2">
-              	<input type="submit" name="_approve" class="btn btn-flat btn-success"  value="MOVE TO SHORTLIST CANDIDATE" />
-              	<br><br>
-              	<input type="submit" name="_delete" class="btn btn-flat btn-danger"  value="DELETE CANDIDATE" />
+                <input type="submit" name="_approve" class="btn btn-flat btn-success"  value="MOVE TO SHORTLIST CANDIDATE" />
+                <br><br>
+                <input type="submit" name="_delete" class="btn btn-flat btn-danger"  value="DELETE CANDIDATE" />
               </div>                
 
             </div>

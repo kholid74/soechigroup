@@ -1,5 +1,5 @@
 <?php 
-error_reporting(E_ALL);
+//error_reporting(E_ALL);
 
 	$sql = "SELECT a.*,b.job_title FROM sch_candidate_office a JOIN sch_job_office b ON a.id_job = b.id WHERE a.id=".$_GET['ids']."";
 	$candidate = $object->fetch($sql);
@@ -757,12 +757,12 @@ error_reporting(E_ALL);
 				                </div>
 				               </div>
 
-											  <div class="form-group row">
-													<label for="salary" class="col-sm-6 col-form-label">Berapa gaji yang anda harapkan ? / What salary do you expect ?</label>
-													<div class="col-sm-6">
-													:&nbsp;&nbsp;<span><?= $showInfo['salary'] ?></span>
-													</div>
-												</div>		                    
+				               <div class="form-group row">
+									<label for="salary" class="col-sm-6 col-form-label">Berapa gaji yang anda harapkan ? / What salary do you expect ?</label>
+									<div class="col-sm-6">
+									:&nbsp;&nbsp;<span><?= $showInfo['salary'] ?></span>
+									</div>
+								</div>			                    
 
 			                  </div>
 			                <!--END ATTACHMENTS -->
