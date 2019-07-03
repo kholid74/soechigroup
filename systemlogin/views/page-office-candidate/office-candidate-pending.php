@@ -278,7 +278,7 @@
 
 
 
-						                	$sql = "SELECT a.*,b.job_title FROM sch_candidate_office a JOIN sch_job_office b ON a.id_job = b.id WHERE a.candidate_code!='' AND (a.status='0' OR a.status='3')";
+						                	$sql = "SELECT * FROM sch_candidate_office WHERE candidate_code!='' AND (status='0' OR status='3')";
 
 
 
@@ -292,7 +292,12 @@
 
 											$number = 1;
 
-											foreach ($candidate as $cand) {?>
+											foreach ($candidate as $cand) {
+												
+												$idjobcand = $cand['id_job'];
+												$jobName = "SELECT id, job_title FROM sch_job_office WHERE id='$idjobcand'";
+												$showjobb = $object->fetch($jobName);
+										?>
 
 									<tr>
 
@@ -300,7 +305,12 @@
 
 										<td><?= $cand['full_name'] ?></td>
 
-										<td><?= $cand['job_title'] ?></td>
+										<td><?php if($showjobb['id'] == $cand['id_job']){
+													echo $showjobb['job_title'];
+												  }else{
+													  echo "<center><span class='badge badge-danger'>job deleted</span></center>";
+												  } 
+											?></td>
 
 										<td><?= $cand['email'] ?></td>
 

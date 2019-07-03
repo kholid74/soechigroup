@@ -61,12 +61,12 @@
 
         $mail->SMTPDebug = 0;    
         $mail->isSMTP();                         
-        $mail->Host = 'smtp.gmail.com'; 
+        $mail->Host = 'smtp.mailtrap.io'; 
         $mail->SMTPAuth = true;                      
-        $mail->Username = 'no-reply@soechi.com';   
-        $mail->Password = 'autocount2018!';                
+        $mail->Username = 'a1526266572f65';   
+        $mail->Password = '49a15dc8363a34';                
         $mail->SMTPSecure = 'tls';                         
-        $mail->Port = 587;
+        $mail->Port = 2525;     
 
         $mail->setFrom('no-reply@soechi.com', 'Soechi Recruitment');
         $mail->addAddress($email);

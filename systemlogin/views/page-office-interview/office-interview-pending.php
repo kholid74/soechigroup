@@ -134,26 +134,19 @@
 					       
 					        $mail = new PHPMailer(true);                             
 					        
-					        $mail->SMTPDebug = 0;    
-					        $mail->isSMTP();                         
-					        $mail->Host = 'smtp.gmail.com'; 
-					        $mail->SMTPAuth = true;                      
-					        $mail->Username = 'no-reply@soechi.com';   
-					        $mail->Password = 'autocount2018!';                
-					        $mail->SMTPSecure = 'tls';                         
-					        $mail->Port = 587;          
+					        $object->setting_smtp($mail);         
 
-		                  	//Recipients
-		                  	$mail->setFrom('no-reply@soechi.com', 'Soechi Recruitment');
-		                  	$mail->addAddress(''.$cand['email'].'', ''.$cand['full_name'].'');    
-		                  	$mail->addReplyTo('no-reply@soechi.com', 'Information');
+									//Recipients
+									$mail->setFrom('no-reply@soechi.com', 'Soechi Recruitment');
+									$mail->addAddress(''.$cand['email'].'', ''.$cand['full_name'].'');    
+									$mail->addReplyTo('no-reply@soechi.com', 'Information');
 
-		                  	//Content
-		                  	$mail->isHTML(true);                                 
-		                  	$mail->Subject = '[no-reply] Interview Schedule';
-		                  	$mail->MsgHTML($message);
+									//Content
+									$mail->isHTML(true);                                 
+									$mail->Subject = '[no-reply] Interview Schedule';
+									$mail->MsgHTML($message);
 
-		                  	$mail->send();
+									$mail->send();
 
 					        @$msg = $_SESSION['statusMsg'] = $statusMsg;
 					        echo "<script> window.location.assign('".$object->base_path()."o-interview-schedule-pending'); </script>";

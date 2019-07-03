@@ -242,22 +242,9 @@
 
 							        $message = str_replace("%BASE_URL%", BASE_URL, $message);
 
-							       
-
 							        $mail = new PHPMailer(true);                             
 
-							                  
-
-				        		  	$mail->SMTPDebug = 0;    
-							        $mail->isSMTP();                         
-							        $mail->Host = 'smtp.gmail.com'; 
-							        $mail->SMTPAuth = true;                      
-							        $mail->Username = 'no-reply@soechi.com';   
-							        $mail->Password = 'autocount2018!';                
-							        $mail->SMTPSecure = 'tls';                         
-							        $mail->Port = 587;             
-
-
+									$object->setting_smtp($mail);           
 
 				                  	//Recipients
 

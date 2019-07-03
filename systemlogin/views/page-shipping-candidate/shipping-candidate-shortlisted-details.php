@@ -64,14 +64,7 @@
 
 		$mail = new PHPMailer(true);
 
-	    $mail->SMTPDebug = 0;    
-        $mail->isSMTP();                         
-        $mail->Host = 'smtp.gmail.com'; 
-        $mail->SMTPAuth = true;                      
-        $mail->Username = 'no-reply@soechi.com';   
-        $mail->Password = 'autocount2018!';                
-        $mail->SMTPSecure = 'tls';                         
-        $mail->Port = 587;
+		$object->setting_smtp($mail);
 
 	    $message = file_get_contents(''.BASE_URL.'emailtemplates/shipping-send-boc.html');
 	    $message = str_replace("%candidate['first_name']%", $candidate['first_name'], $message);

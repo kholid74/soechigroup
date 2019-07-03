@@ -48,16 +48,9 @@
 	    $activeCand ="UPDATE `sch_candidate_shipping` SET `active`='yes' WHERE id='".$_GET['ids']."'";
 	    $object->add($activeCand);
 
-        $mail = new PHPMailer(true);
+			$mail = new PHPMailer(true);
 
-	    $mail->SMTPDebug = 0;    
-	    $mail->isSMTP();                         
-	    $mail->Host = 'smtp.mailtrap.io'; 
-	    $mail->SMTPAuth = true;                      
-	    $mail->Username = 'a1526266572f65';   
-	    $mail->Password = '49a15dc8363a34';                
-	    $mail->SMTPSecure = 'tls';                         
-	    $mail->Port = 2525;                            
+			$object->setting_smtp($mail);                           
 	      
 	    $message = file_get_contents(''.BASE_URL.'emailtemplates/shipping-shortlisted-send-userpass.html');
 	    $message = str_replace("%candidate['first_name']%", $candidate['first_name'], $message);
